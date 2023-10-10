@@ -6,14 +6,13 @@ The connect component is the central component of the radii plugin, every other 
 
 **Input**
 
-
-========     ====================================== ================
+========    ====================================== ================
 Name            Description                            Type 
-========     ====================================== ================
+========    ====================================== ================
 Connect        Start the connection to the server     Boolean
 Point to       The rhino view is sending a pointer    Boolean
 Follow         Everyone follows the rhino view        Boolean
-========     ====================================== ================
+========    ====================================== ================
 
 **Output**
 
@@ -24,7 +23,7 @@ Connection   All further components have to be connected here   Radii components
 ===========  ================================================== ================
 
 .. image:: ../images/Connect/Connect.png
-
+    :scale: 80 %
 
 Right click menu:
 
