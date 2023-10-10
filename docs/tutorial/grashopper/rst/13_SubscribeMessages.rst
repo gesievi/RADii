@@ -1,8 +1,9 @@
 ************
-
+SubscribeMessages
 ************
 
-.. image:: ../images/Publish/
+.. image:: ../images/Subscribe/Sub_message.png
+
 
 **Input**
 
@@ -10,7 +11,7 @@
 Name        Description                             Type
 ==========  ======================================  ==============
 Connection  Link with the Connect component         Connection
-
+Subscribe   Toggle the subscription                 Boolean
 ==========  ======================================  ==============
 
 **Output**
@@ -18,7 +19,5 @@ Connection  Link with the Connect component         Connection
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-
-**Menu**
-
-==========  ==========================================
+Messages    Connect to a Notepad to observe         Text
+==========  ======================================  ==============
