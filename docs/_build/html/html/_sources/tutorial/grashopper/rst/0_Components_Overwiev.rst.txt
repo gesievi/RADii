@@ -17,7 +17,7 @@ Publishing describes the act of uploading data to the channel.
 9) PublishCurve
 10) PublishMessage
 
-|11) Save Content
+11) **Save Content**
 
 **Subscribe Components**
 
@@ -27,7 +27,7 @@ Publishing describes the act of uploading data to the channel.
 15) SubscribeParameter
 16) SubscribeUser
 
-
+|
 17) PointCloud Reduce & PointcloudBox
 
 .. comment:

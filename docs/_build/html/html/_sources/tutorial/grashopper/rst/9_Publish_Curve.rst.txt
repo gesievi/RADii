@@ -1,16 +1,19 @@
 ************
-
+PublishCurve
 ************
 
-.. image:: ../images/Publish/
+.. image:: ../images/Publish/Publish_curve.png
+
 
 **Input**
 
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Connection  Link with the Connect component         Connection
-
+Connection  Link with the Connect component         Connect
+Curve       the curves to publish                   Curve
+MinEdge     Min length of segments                  Number
+MaxEdge     Max length of segments                  Number
 ==========  ======================================  ==============
 
 **Output**
@@ -18,7 +21,6 @@ Connection  Link with the Connect component         Connection
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-
-**Menu**
-
-==========  ==========================================
+Log         Documents changes & Data send           Text
+Save        Connect to Savecontent for saving       Radii content
+==========  ======================================  ==============

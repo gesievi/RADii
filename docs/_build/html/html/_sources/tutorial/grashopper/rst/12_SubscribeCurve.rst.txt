@@ -1,8 +1,9 @@
 ************
-
+SubscribeCurve
 ************
 
-.. image:: ../images/Publish/
+.. image:: ../images/Subscribe/Sub_curve.png
+    :scale: 90 %
 
 **Input**
 
@@ -10,7 +11,8 @@
 Name        Description                             Type
 ==========  ======================================  ==============
 Connection  Link with the Connect component         Connection
-
+Filter      Filter own publication/broadcast        Boolean
+Subscribe   Toggle the subscription                 Boolean
 ==========  ======================================  ==============
 
 **Output**
@@ -18,7 +20,6 @@ Connection  Link with the Connect component         Connection
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-
-**Menu**
-
-==========  ==========================================
+Log         Documents changes & Data send           Text
+Curve       Element to work with                    Curve
+==========  ======================================  ==============
