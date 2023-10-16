@@ -92,11 +92,23 @@ download via the publishControl --> File settings
 
 
 **Examples:**
-You have some geometry (a building) and want to publish or download from the server, then walk through it, change the time of the day and
-continue your tour via a series of pre defined views. Instead of setting everything live during your presentation, you sett up one position after the otherand save
+
+You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
+continue your tour via a series of pre defined views (3-4).
+Instead of setting everything live during your presentation, you define one position after the other and save
 them as individual scenarios. You then can switch through them during your presentation more easily.
 
-"""
-.. image:: ../images/Publish/
-"""
-4 Images missing
+
+**1)**
+
+.. image:: ../images/Publish/Scenario_Manager_examples/1.png
+
+**2)**
+
+.. image:: ../images/Publish/Scenario_Manager_examples/2.png
+
+**3-4)**
+
+.. image:: ../images/Publish/Scenario_Manager_examples/3.png
+
+.. image:: ../images/Publish/Scenario_Manager_examples/4.png        

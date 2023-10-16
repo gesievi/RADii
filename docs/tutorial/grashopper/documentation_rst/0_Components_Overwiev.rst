@@ -1,6 +1,6 @@
-************
+********************
 Components Overwiev
-************
+********************
 
 Publishing describes the act of uploading data to the channel.
 
@@ -17,6 +17,8 @@ Publishing describes the act of uploading data to the channel.
 9) PublishCurve
 10) PublishMessage
 
+.. idealy there would be a space betwen the lines, Edit: funny enough this comment made this possible
+
 11) **Save Content**
 
 **Subscribe Components**
@@ -29,5 +31,6 @@ Publishing describes the act of uploading data to the channel.
 
 |
 17) PointCloud Reduce & PointcloudBox
+
 
 .. comment:
