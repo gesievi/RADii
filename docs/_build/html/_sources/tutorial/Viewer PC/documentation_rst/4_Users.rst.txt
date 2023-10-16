@@ -15,9 +15,9 @@ Users
     - Editor = data that was sent from RhinoGrashopper
     
 	  - Follow - follow the rhino view of the user
-      - User toggle avatar
-      - Content - toggle content
-      - Clear - delete content from viewer
+	  - User toggle avatar
+	  - Content - toggle content
+	  - Clear - delete content from viewer
     - Viewer  all other viewers that are on the channel
 
 10. Data & Cameras = toggle labels
