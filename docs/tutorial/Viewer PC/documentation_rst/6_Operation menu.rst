@@ -13,7 +13,6 @@ Open the Operation menu with a left click, close it with a right click
 - Go To = move to a point
 - Point = (laser) pointer visible to all in the same channel
 - Grab = move a part of a model
-
     -  this will only be visible if the geometry is published as shared 
     -  to copy point on geometry hold Ctrl + Left mouse
 - X = left click to close the menu or right click anywhere
@@ -21,5 +20,4 @@ Open the Operation menu with a left click, close it with a right click
 - Set = set the section
 - Move = move the section
 - Clip = toggles sections
-
     - to display the shadow version of the geometry: World menu -> Effects -> Inverse
