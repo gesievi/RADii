@@ -6,8 +6,8 @@ Publish
 
 8. Parameters - send parameters back to grashopper
 
-- Add by typing a name and click:
-    - Boolean (on/off)
-    - Slider (Number between 0 and 1)
+   - Add by typing a name and click:
+       - Boolean (on/off)
+       - Slider (Number between 0 and 1)
 
-- To receive them in grasshopper use the SubscribeParameter component
+   - To receive them in grasshopper use the SubscribeParameter component
