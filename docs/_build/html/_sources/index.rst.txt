@@ -10,8 +10,6 @@ Welcome to Radii_documentation's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
-
 Indices and tables
 ==================
 
