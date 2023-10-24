@@ -1,6 +1,6 @@
-************
+*********************
 SubscribePointCloud
-************
+*********************
 
 .. image:: ../images/Subscribe/Pointcloud.png
 

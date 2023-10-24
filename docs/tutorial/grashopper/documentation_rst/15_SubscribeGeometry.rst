@@ -1,6 +1,6 @@
-************
+********************
 SubscribeGeometry
-************
+********************
 
 .. image:: ../images/Subscribe/Sub_geometry.png
 

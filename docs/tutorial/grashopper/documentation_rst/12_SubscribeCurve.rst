@@ -1,6 +1,6 @@
-************
+****************
 SubscribeCurve
-************
+****************
 
 .. image:: ../images/Subscribe/Sub_curve.png
     :scale: 90 %

@@ -1,6 +1,6 @@
-*******************
+***********************
 Radii Viewer overwiev
-*******************
+***********************
 
 The RADii Viewer is a program used to access the RADii channels.
     It can be run on Win/ Mac, Oculus, iOS 11+ Android 7+ and a browser.

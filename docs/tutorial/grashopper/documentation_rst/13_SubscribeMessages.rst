@@ -1,6 +1,6 @@
-************
+*******************
 SubscribeMessages
-************
+*******************
 
 .. image:: ../images/Subscribe/Sub_message.png
 

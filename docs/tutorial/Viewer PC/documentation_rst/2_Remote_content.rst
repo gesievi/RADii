@@ -1,6 +1,6 @@
-************
+*****************
 Remote content
-************
+*****************
 
 .. image:: ../images/Menu_remote_content.png
 
