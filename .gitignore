@@ -1,2 +1,24 @@
 
 docs/tutorial/Viewer PC/documentation_rst/6_Operation menu copy.rst
+
+
+#live preview for vs code with sphinx and associated files
+#uncomment for deployment
+
+#docs\_build
+#docs\_static
+#docs\_templates
+#docs\.vscode
+#docs\tutorial
+#docs\conf.py
+#docs\make.bat
+#docs\Makefile
+
+#personal files
+#docs\TODO
+
+
+
+
+
+

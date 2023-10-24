@@ -1,6 +1,6 @@
-************
+****************
 PublishMessage
-************
+****************
 
 .. image:: ../images/Publish/Publish_message.png
 

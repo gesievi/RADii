@@ -1,9 +1,10 @@
-************
+******************
 PublishAnimation
-************
+******************
 
 .. image:: ../images/Publish/Publish_animation.png
     :scale: 90 %
+
 
 **Input**
 
@@ -15,6 +16,7 @@ Animation Planes    Along the path you want to animate along    Planes
 Content             Geometry you want to animate                Save of Publish Geometry component
 =================   ========================================    =======================================
 
+
 **Output**
 
 ==========  ======================================  ==============
@@ -23,6 +25,7 @@ Name        Description                             Type
 Log         Documents changes & Data send           Text
 Save        Connect to Savecontent for saving       Radii content
 ==========  ======================================  ==============
+
 
 **Menu**
 

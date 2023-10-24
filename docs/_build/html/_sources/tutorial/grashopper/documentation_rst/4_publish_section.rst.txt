@@ -1,6 +1,6 @@
-************
+****************
 PublishSection
-************
+****************
 
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %

@@ -1,6 +1,6 @@
-************
+*************
 PublishCurve
-************
+*************
 
 .. image:: ../images/Publish/Publish_curve.png
 

@@ -1,6 +1,6 @@
-************
+******************
 PublishMaterial
-************
+******************
 
 .. image:: ../images/Publish/Textures.png
     :scale: 80 %

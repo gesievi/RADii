@@ -1,6 +1,6 @@
-************
+****************
 PublishControl
-************
+****************
 
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %

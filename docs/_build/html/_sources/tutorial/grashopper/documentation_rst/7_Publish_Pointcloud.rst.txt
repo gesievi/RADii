@@ -1,6 +1,6 @@
-************
+*********************
 PublishPointcloud
-************
+*********************
 
 .. image:: ../images/Publish/Publish_Pointclouds.png
     :scale: 90 %
