@@ -29,7 +29,7 @@ Publishing describes the act of uploading data to the channel.
 15) SubscribeParameter
 16) SubscribeUser
 
-|
+
 17) PointCloud Reduce & PointcloudBox
 
 

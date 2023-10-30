@@ -9,6 +9,7 @@ World
     - Field of view - controls the field of view at the cost of some distortion
     - Sensitivity - mouse sensitivity
     - Speed - movement speed
+
   **Note:** turn slow when someone is following you through the project
 
 12.   Effects - turning them off increases performance
