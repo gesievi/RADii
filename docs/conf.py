@@ -18,7 +18,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Radii Documentation'
-copyright = '2023, ETH Zuerich Chair of Gramazio & Kohler,'
+copyright = '2023, ETH Zuerich Chair of Gramazio & Kohler'
 author = 'Gereon Sievi'
 
 # The full version, including alpha/beta/rc tags
