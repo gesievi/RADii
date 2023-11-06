@@ -32,8 +32,9 @@ to the same channel as the sender.
 1. **Download** the lastest Radii Plugin from https://radii.info/
 2. If you did not already: **Register** in the user panel **and confirm** your email 
     - it is not neccecary to set a domain name
-3. **Unpack** the .Zip file and drop the Radii.gha file it into the Rhino Grashopper window
-4. Check if the install was succesfull, it should be visible in one your tabs as shown below.
+3. **Unpack** the .Zip file 
+4. **Drag & drop** the Radii.gha file it into the Rhino Grashopper window, you open it by typing the "grashopper" command in rhino
+5. **Check** if the install was succesfull, it should be visible in one your tabs as shown below.
 
 .. image:: ../Setup/Images/Grashopper_Blank_install.png
 
