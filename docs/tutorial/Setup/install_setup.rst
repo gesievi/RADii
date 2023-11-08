@@ -54,6 +54,7 @@ Please be aware that the Occulus and its environments are subject to frequent ch
 6. On sidequest select the install .apk file and install
 
 To find the Radii Viewer app on Occulus:
+
 1. Select the app libary
 2. Filter apps for unkown sources 
 3. Start Radii Viewer VR
