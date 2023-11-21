@@ -1,8 +1,8 @@
 ********************
-Components Overwiev
+Grashopper Overview
 ********************
 
-Publishing describes the act of uploading data to the channel.
+Publishing describes the act of uploading data to a channel.
 
 **Publish Components** 
 
@@ -32,4 +32,8 @@ Publishing describes the act of uploading data to the channel.
 
 17) PointCloud Reduce & PointcloudBox
 
-
+.. toctree::
+    :titlesonly:
+    :glob:
+        
+    tutorial/grashopper/documentation_rst/
