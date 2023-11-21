@@ -1,5 +1,0 @@
-************
-PublishSection
-************
-
-.. image:: ../images/Publish/

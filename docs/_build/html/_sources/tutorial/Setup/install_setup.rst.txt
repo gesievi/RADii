@@ -60,3 +60,8 @@ To find the Radii Viewer app on Occulus:
 3. Start Radii Viewer VR
 
 Congratulations you have installed Radii on your Vr device
+
+
+Technical Prerequisites
+____________________________
+
