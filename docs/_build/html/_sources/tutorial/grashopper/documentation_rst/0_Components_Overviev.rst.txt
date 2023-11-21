@@ -1,5 +1,5 @@
 ********************
-Grashopper Overviev
+Grashopper Overview
 ********************
 
 Publishing describes the act of uploading data to a channel.
@@ -32,9 +32,8 @@ Publishing describes the act of uploading data to a channel.
 
 17) PointCloud Reduce & PointcloudBox
 
-
 .. toctree::
-    :glob:
     :titlesonly:
-
-    tutorial/grashopper/documentation_rst/*
+    :glob:
+        
+    tutorial/grashopper/documentation_rst/
