@@ -22,8 +22,9 @@ copyright = '2023, ETH Zuerich Chair of Gramazio & Kohler'
 author = 'Gereon Sievi'
 
 # The full version, including alpha/beta/rc tags
-release = '2023'
-
+release = '0.37-b'
+github_banner = True
+github_repo = "https://github.com/gesievi/RADii"
 
 # -- General configuration ---------------------------------------------------
 
