@@ -3,12 +3,26 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Radii Documentation
-===============================================
+**************************
+Radii Documentation
+**************************
+
+
+Table of Contents
+==================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 1
+   :titlesonly:
+   :glob:
+
+   Introduction <self>
+   tutorial/Setup/install_setup
+   tutorial/Viewer_PC/documentation_rst/0_Viewer 
+   tutorial/grashopper/documentation_rst/0_Components_Overviev 
+   tutorial/Quick_Guide/Quick_Guides 
+
+
 
 Indices and tables
 ==================
