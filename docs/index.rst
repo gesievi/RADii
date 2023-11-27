@@ -7,6 +7,13 @@
 Radii Documentation
 **************************
 
+RADii is a collaboration platform for 3D modells.
+RADii consists of a Rhino Grasshopper plugin to publish (upload) 3D Models and viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and experience them.
+It functions as a direct interface between the model you are working on and its experience.
+RADii is being developed by Thomas Lee since 2020. Since 2022 he is colaborating with Gramazio Kohler Research to further develop the tool in the context of the Immersive Design Studio.
+More information, updates and the programm can be found at radii.info
+
+
 
 Table of Contents
 ==================
@@ -16,10 +23,10 @@ Table of Contents
    :titlesonly:
    :glob:
 
-   Introduction <self>
+   Home <self>
    tutorial/Setup/install_setup
    tutorial/Viewer_PC/documentation_rst/0_Viewer 
-   tutorial/grashopper/documentation_rst/0_Components_Overviev 
+   tutorial/grashopper/documentation_rst/01_Components_Overviev
    tutorial/Quick_Guide/Quick_Guides 
 
 
@@ -28,6 +35,7 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
+  
+.. * :ref:`modindex`
 
