@@ -24,16 +24,22 @@ Publishing describes the act of uploading data to a channel.
 **Subscribe Components**
 
 12) SubscribeCuve
-13) Subscribe PointCloud
-14) SubscribeGeometry
-15) SubscribeParameter
-16) SubscribeUser
+13) SubscribePointCloud
+14) SubscribeMessages
+15) SubscribeGeometry
+16) SubscribeParameter
+17) SubscribeUser
 
 
-17) PointCloud Reduce & PointcloudBox
+18) PointCloud Reduce & PointcloudBox
+
+**Grashopper Components**
+
+.. the naming in toctree is case sensitive
 
 .. toctree::
     :titlesonly:
+    :numbered:
     :glob:
-        
-    tutorial/grashopper/documentation_rst/
+    
+    *

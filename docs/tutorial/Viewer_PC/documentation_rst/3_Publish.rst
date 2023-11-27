@@ -1,5 +1,5 @@
 ************
-Publish
+Publish Menu
 ************
 
 .. image:: ../images/Menu_publish.png

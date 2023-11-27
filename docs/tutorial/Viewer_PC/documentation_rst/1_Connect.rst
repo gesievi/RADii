@@ -1,8 +1,8 @@
 ************
-Connect
+Connect Menu
 ************
 
-.. image:: ../images/Menu_connect.png
+.. image:: ../images/Menu_connect.png 
 
 1. Custom Account from Radii.info
 
