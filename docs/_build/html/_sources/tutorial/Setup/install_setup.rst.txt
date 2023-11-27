@@ -2,8 +2,10 @@
 Setup
 ************
 
-Viewer PC/Mac
-_________________
+
+
+"Viewer PC/Mac"
+____________________________
 
 To explore models in Radii you need a viewer, this is a programm that enables you to join a server (we call them channels) and download the models.
 Viewers are available for a number of different operating systems such as Windows/Mac, IPhone/Android and Occulus. 
@@ -38,7 +40,7 @@ to the same channel as the sender.
 
 .. image:: ../Setup/Images/Grashopper_Blank_install.png
 
-**Congratulations** you have installed Grashopper Radii. On how to publish consult the Quick Guide and the Radii Grashopper documentation
+**Congratulations !** you have installed Grashopper Radii. On how to publish consult the Quick Guide and the Radii Grashopper documentation
 
 
 Occulus

@@ -1,5 +1,5 @@
 ************
-Users
+Users Menu
 ************
 
 .. image:: ../images/Menu_users.png

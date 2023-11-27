@@ -1,5 +1,5 @@
 ************
-World
+World Menu
 ************
 
 .. image:: ../images/Menu_world.png
