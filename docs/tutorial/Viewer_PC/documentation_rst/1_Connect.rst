@@ -24,3 +24,4 @@ Connect Menu
    - Disconnect to leave the channel
    - Sync - synchronize
       - you will receive all data that is being sent to the channel at the moment
+

@@ -42,4 +42,4 @@ Publishing describes the act of uploading data to a channel.
     :numbered:
     :glob:
     
-    *
+
