@@ -2,8 +2,9 @@
 PublishMaterial
 ******************
 
-.. image:: ../images/Publish/Textures.png
-    :scale: 80 %
+.. image:: ../images/Publish/Publish_Textures.png
+
+
 
 **Input**
 

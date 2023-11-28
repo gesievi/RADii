@@ -3,7 +3,9 @@ PublishView
 ************
 
 .. image:: ../images/Publish/Publish_view.png
-    :scale: 50 %
+    :scale: 80 %
+
+
 
 - there are two ways to import views:
   
