@@ -18,3 +18,4 @@ Connection  Link with the Connect component         Connection
 ======================= ========================================================================
 Send Massage to channel Type a message and press enter to send all viewers that are connected
 ======================= ========================================================================
+

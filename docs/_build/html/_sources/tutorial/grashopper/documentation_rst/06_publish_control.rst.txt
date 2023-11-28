@@ -111,4 +111,5 @@ them as individual scenarios. You then can switch through them during your prese
 
 .. image:: ../images/Publish/Scenario_Manager_examples/3.png
 
-.. image:: ../images/Publish/Scenario_Manager_examples/4.png        
+.. image:: ../images/Publish/Scenario_Manager_examples/4.png  
+

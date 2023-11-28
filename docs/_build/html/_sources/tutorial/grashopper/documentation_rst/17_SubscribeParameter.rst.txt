@@ -32,3 +32,4 @@ Parameter/Boolean   Parameter/Boolean from Radii Viewer     Boolean/Number
 
   - The more parameters you define in the viewer the more will be on this component
   - the number will be between 0 to 1, you can remap this to any other range
+

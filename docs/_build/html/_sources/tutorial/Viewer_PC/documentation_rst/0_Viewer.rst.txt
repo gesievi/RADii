@@ -24,7 +24,7 @@ Left Mouse  Operation Menu (3.6)
 =========== ===================================
 
 
-**Viewer Menu:**
+**Viewer Page Menu:**
 
 .. toctree::
     :titlesonly:
