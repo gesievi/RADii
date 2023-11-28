@@ -23,8 +23,6 @@ author = 'Gereon Sievi'
 
 # The full version, including alpha/beta/rc tags
 release = '0.37-b'
-github_banner = True
-github_repo = "https://github.com/gesievi/RADii"
 
 # -- General configuration ---------------------------------------------------
 
@@ -51,8 +49,19 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "tutorial/grashopper/doc
 html_theme = 'alabaster'
 
 html_theme_options =  {
+    'fixed_sidebar' : 'True',
+    'github_banner' : 'False' ,
+    'github_repo'   : "RADii",
+    'github_button' : 'true',
+    'github_user'   : 'gesievi/',
+    'show_relbars' : 'False',
+    'show_related' : 'True',
+    'font_family'   : 'OfficeCodePro-Regular.otf',
+
 }
 
+# things that i have not gotten to work so far
+#'logo': '/tutorial/grashopper/images/Icons/logo.png', 
 # font_family = {"../docs/_Font/OfficeCodePro/OfficeCodePro-Medium.oft"}
 
 # Add any paths that contain custom static files (such as style sheets) here,
