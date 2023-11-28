@@ -1,45 +1,52 @@
 ********************
 Grashopper Overview
 ********************
-
-Publishing describes the act of uploading data to a channel.
-
-**Publish Components** 
-
-1) Connect
-2) PublishGeometry
-3) PublishMaterial
-4) PublishSection
-5) PublishControl
-6) PublishView
-7) PublishPointCloud
-8) PublishAnimation
-9) PublishCurve
-10) PublishMessage
-
-.. idealy there would be a space betwen the lines, Edit: funny enough this comment made this possible
-
-11) **Save Content**
-
-**Subscribe Components**
-
-12) SubscribeCuve
-13) SubscribePointCloud
-14) SubscribeMessages
-15) SubscribeGeometry
-16) SubscribeParameter
-17) SubscribeUser
+There are 4 types of components in Radii Grashopper:
+*Connect* is the fundamental component to connect to a channel, it is always connected to all other components that are meant for publishing.
+*Publishing* components can send data to a channel and its connected receivers.
+*Saving* enables you to save localy to .radii files or on a channel in the cloud.
+*Subscribing* imports data from from a connected channel to your local Rhino Grashopper session. The data can then be further processed or saved.
 
 
-18) PointCloud Reduce & PointcloudBox
-
-**Grashopper Components**
+Grashopper Components
+_____________________________
 
 .. the naming in toctree is case sensitive
+
+**Publish Components**
 
 .. toctree::
     :titlesonly:
     :numbered:
     :glob:
     
+    *connect
+    *publish*
 
+**Save Content**
+
+.. toctree::
+    :titlesonly:
+    :numbered:
+    :glob:
+    
+    *Save*
+
+**Subscribe Components**
+
+.. toctree::
+    :titlesonly:
+    :numbered:
+    :glob:
+    
+    *Subscribe*
+
+**Tool Components & Tipps**
+
+.. toctree::
+    :titlesonly:
+    :numbered:
+    :glob:
+    
+    *Tools*
+    *10_Tipps*
