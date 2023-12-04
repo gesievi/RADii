@@ -34,19 +34,14 @@ Save Scenario  Save control and geometry                   Radii
 
 **Menu**
 
-======= =====================
-Name    Description
-======= =====================
-Scale   Set the model scale
-Weather Weather options
-Grid    Toggle base floor
-Origin  Toggle origin sign
-Labels  Toggle all labels
-======= =====================
-
 =================== ============================================================================================
 Name                Description
 =================== ============================================================================================
+Scale               Set the model scale
+Weather             Weather options
+Grid                Toggle base floor
+Origin              Toggle origin sign
+Labels              Toggle all labels
 Fly                 Forces viewers to fly
 Set position        Set the camera of your active rhino viewport as position
 Save position       Include the position in a scenario save
@@ -91,7 +86,7 @@ The current :code:`best practice for heavy geometry` is to upload it to the serv
 download via the publishControl --> File settings
 
 
-**Examples:**
+**Examples**
 
 You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
 continue your tour via a series of pre defined views (3-4).

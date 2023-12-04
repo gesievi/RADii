@@ -1,7 +1,7 @@
 ****************************
-Tutorial 1 Participation 
+Tutorial 1 The Basics
 ****************************
 
 
-You join a channel and take part in a presentation, walking you through the process.
+
 

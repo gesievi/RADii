@@ -3,6 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+.. image:: /tutorial/Quick_Guide/quick_guide_simple_images/Viewer/Radii_logo.png
+
 **************************
 Radii Documentation
 **************************
@@ -13,6 +16,8 @@ It functions as a direct interface between the model you are working on and its 
 RADii is being developed by Thomas Lee since 2020. Since 2022 he is colaborating with Gramazio Kohler Research to further develop the tool in the context of the Immersive Design Studio.
 More information, updates and the programm can be found at radii.info
 This project is still under developement, should you find buggs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+
+
 
 Table of Contents
 ==================
