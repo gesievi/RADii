@@ -1,5 +1,5 @@
 **************
-Quick Guides
+Guides
 **************
 
 Overview page for Quickguides to be done
