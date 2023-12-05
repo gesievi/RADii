@@ -27,7 +27,7 @@ World Menu
       - Point near size = increases point sizes near you
 
 
-  **Note:** pointclouds are disabled in IOS/Android viewers because they require a lot of computing power
+  **Note:** point clouds are disabled in IOS/Android viewers because they require a lot of computing power
 
 14.  Weather
 

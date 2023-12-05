@@ -12,10 +12,10 @@ PublishPointcloud
 Name         Description                             Type
 ===========  ======================================  ==============
 Connection   Link with the Connect component         Connect
-Point Cloud  Input for a Pointcloud                  Pointcloud
+Point Cloud  Input for a Point cloud                  Point cloud
 ===========  ======================================  ==============
 
-  - Pointclouds have a tendency to be strain on your pc, in those cases see more under the tool section of radii
+  - Point clouds have a tendency to be strain on your pc, in those cases see more under the tool section of radii
 
 
 **Output**
@@ -24,7 +24,7 @@ Point Cloud  Input for a Pointcloud                  Pointcloud
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & Data send           Text
-Save        Connect to Savecontent for saving       Radii content
+Save        Connect to SaveContent for saving       Radii content
 ==========  ======================================  ==============
 
 

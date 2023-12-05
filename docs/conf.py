@@ -38,7 +38,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "tutorial/grashopper/documentation_rst/Vorlage.rst", "conf2.py", "index2.rst"]
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "tutorial/grashopper/documentation_rst/Vorlage.rst", "conf2.py", "index2.rst", "readme.rst"]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -49,7 +49,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "tutorial/grashopper/doc
 html_theme = 'alabaster'
 
 html_theme_options =  {
-    'fixed_sidebar' : 'True',
+    'fixed_sidebar' : 'False',
     'github_banner' : 'False' ,
     'github_repo'   : "RADii",
     'github_button' : 'true',
