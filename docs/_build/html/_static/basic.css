@@ -411,7 +411,7 @@ table.align-center {
 }
 
 table.align-default {
-    margin-left: left;
+    margin-left: auto;
     margin-right: auto;
 }
 

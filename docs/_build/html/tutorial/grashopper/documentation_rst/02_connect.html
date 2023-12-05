@@ -58,18 +58,18 @@
 <li class="toctree-l2"><a class="reference internal" href="09_publish_Animation.html">8. PublishAnimation</a></li>
 <li class="toctree-l2"><a class="reference internal" href="10_publish_Curve.html">9. PublishCurve</a></li>
 <li class="toctree-l2"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">11. SaveContent</a></li>
-<li class="toctree-l2"><a class="reference internal" href="13_SubscribeCurve.html">12. SubscribeCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="14_SubscribeMessages.html">13. SubscribeMessages</a></li>
-<li class="toctree-l2"><a class="reference internal" href="15_SubscribePointCloud.html">14. SubscribePointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="16_SubscribeGeometry.html">15. SubscribeGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="17_SubscribeParameter.html">16. SubscribeParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="18_SubscribeUser.html">17. SubscribeUser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="19_Tools_PointCloudResource_subset.html">18. PointCloudReduce &amp; PointcloudBox</a></li>
-<li class="toctree-l2"><a class="reference internal" href="20_10_Tipps.html">19. 10 tipps &amp; Tricks for working with geometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
+<li class="toctree-l2"><a class="reference internal" href="13_SubscribeCurve.html">1. SubscribeCurve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="14_SubscribeMessages.html">2. SubscribeMessages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15_SubscribePointCloud.html">3. SubscribePointCloud</a></li>
+<li class="toctree-l2"><a class="reference internal" href="16_SubscribeGeometry.html">4. SubscribeGeometry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="17_SubscribeParameter.html">5. SubscribeParameter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="18_SubscribeUser.html">6. SubscribeUser</a></li>
+<li class="toctree-l2"><a class="reference internal" href="19_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; PointcloudBox</a></li>
+<li class="toctree-l2"><a class="reference internal" href="20_10_Tipps.html">2. 10 tipps &amp; Tricks for working with geometry</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Quick Guides</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>
 </ul>
 
 <div class="relations">
@@ -111,66 +111,66 @@
             
   <section id="connect">
 <h1><span class="section-number">1. </span>Connect<a class="headerlink" href="#connect" title="Link to this heading">¶</a></h1>
-<p>The connect component is the central component of the radii plugin, every other component is connected to the connection part.</p>
-<p><strong>Input</strong></p>
+<p class="linemarker linemarker-5">The connect component is the central component of the radii plugin, every other component is connected to the connection part.</p>
+<p class="linemarker linemarker-7"><strong>Input</strong></p>
 <table class="docutils align-default">
 <thead>
-<tr class="row-odd"><th class="head"><p>Name</p></th>
-<th class="head"><p>Description</p></th>
-<th class="head"><p>Type</p></th>
+<tr class="row-odd"><th class="head"><p class="linemarker linemarker-10">Name</p></th>
+<th class="head"><p class="linemarker linemarker-10">Description</p></th>
+<th class="head"><p class="linemarker linemarker-10">Type</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Connect</p></td>
-<td><p>Start the connection to the server</p></td>
-<td><p>Boolean</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-12">Connect</p></td>
+<td><p class="linemarker linemarker-12">Start the connection to the server</p></td>
+<td><p class="linemarker linemarker-12">Boolean</p></td>
 </tr>
-<tr class="row-odd"><td><p>Point to</p></td>
-<td><p>The rhino view is sending a pointer</p></td>
-<td><p>Boolean</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-13">Point to</p></td>
+<td><p class="linemarker linemarker-13">The rhino view is sending a pointer</p></td>
+<td><p class="linemarker linemarker-13">Boolean</p></td>
 </tr>
-<tr class="row-even"><td><p>Follow</p></td>
-<td><p>Everyone follows the rhino view</p></td>
-<td><p>Boolean</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-14">Follow</p></td>
+<td><p class="linemarker linemarker-14">Everyone follows the rhino view</p></td>
+<td><p class="linemarker linemarker-14">Boolean</p></td>
 </tr>
-<tr class="row-odd"><td><p>Test</p></td>
-<td><p>Testtest</p></td>
-<td><p>Test</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-15">Test</p></td>
+<td><p class="linemarker linemarker-15">Testtest</p></td>
+<td><p class="linemarker linemarker-15">Test</p></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Output</strong></p>
+<p class="linemarker linemarker-18"><strong>Output</strong></p>
 <table class="docutils align-default">
 <thead>
-<tr class="row-odd"><th class="head"><p>Name</p></th>
-<th class="head"><p>Description</p></th>
-<th class="head"><p>Type</p></th>
+<tr class="row-odd"><th class="head"><p class="linemarker linemarker-21">Name</p></th>
+<th class="head"><p class="linemarker linemarker-21">Description</p></th>
+<th class="head"><p class="linemarker linemarker-21">Type</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>Connection</p></td>
-<td><p>All further components have to be connected here</p></td>
-<td><p>Radii components</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-23">Connection</p></td>
+<td><p class="linemarker linemarker-23">All further components have to be connected here</p></td>
+<td><p class="linemarker linemarker-23">Radii components</p></td>
 </tr>
 </tbody>
 </table>
 <a class="reference internal image-reference" href="../../../_images/Connect.png"><img alt="../../../_images/Connect.png" src="../../../_images/Connect.png" style="width: 590.4px; height: 262.40000000000003px;" /></a>
-<p>Right click menu:</p>
+<p class="linemarker linemarker-29">Right click menu:</p>
 <img alt="../../../_images/Connect.1.png" src="../../../_images/Connect.1.png" />
 <ul class="simple">
-<li><p>Give yourself a nickname - this will be your visible name in the viewer</p></li>
+<li><p class="linemarker linemarker-33">Give yourself a nickname - this will be your visible name in the viewer</p></li>
 <li><dl class="simple">
 <dt>input your:</dt><dd><ul>
-<li><p>User Name</p></li>
-<li><p>Password</p></li>
+<li><p class="linemarker linemarker-35">User Name</p></li>
+<li><p class="linemarker linemarker-36">Password</p></li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><p>click on load account</p></li>
-<li><p>if you do not have an account create one on radii.info</p></li>
+<li><p class="linemarker linemarker-37">click on load account</p></li>
+<li><p class="linemarker linemarker-38">if you do not have an account create one on radii.info</p></li>
 </ul>
-<p>Note: please use your ETH-mail so we can connect you to the studio</p>
+<p class="linemarker linemarker-40">Note: please use your ETH-mail so we can connect you to the studio</p>
 <img alt="../../../_images/Connect.11.png" src="../../../_images/Connect.11.png" />
 </section>
 

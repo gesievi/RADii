@@ -3,11 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+
+.. image:: /tutorial/Quick_Guide/quick_guide_simple_images/Viewer/Radii_logo.png
+
 **************************
 Radii Documentation
 **************************
-.. image:: /tutorial/Quick_Guide/quick_guide_simple_images/Viewer/Radii_logo.png
-
 
 `RADii <https://radii.info/>`_ is a collaboration platform for 3D modells.
 RADii consists of a Rhino Grasshopper plugin to publish (upload) 3D Models and viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and experience them.
