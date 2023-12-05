@@ -13,8 +13,6 @@
     <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="1. Connect" href="02_connect.html" />
-    <link rel="prev" title="6. Operation Menu" href="../../Viewer_PC/documentation_rst/6_Operation_menu.html" />
    
   <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
   
@@ -47,37 +45,14 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Setup/install_setup.html">Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer Overview</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Grashopper Overview</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
-<li class="toctree-l2"><a class="reference internal" href="03_publish_geometry.html">2. PublishGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04_publish_material.html">3. PublishMaterial</a></li>
-<li class="toctree-l2"><a class="reference internal" href="05_publish_section.html">4. PublishSection</a></li>
-<li class="toctree-l2"><a class="reference internal" href="06_publish_control.html">5. PublishControl</a></li>
-<li class="toctree-l2"><a class="reference internal" href="07_publish_View.html">6. PublishView</a></li>
-<li class="toctree-l2"><a class="reference internal" href="08_publish_Pointcloud.html">7. PublishPointcloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="09_publish_Animation.html">8. PublishAnimation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="10_publish_Curve.html">9. PublishCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
-<li class="toctree-l2"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
-<li class="toctree-l2"><a class="reference internal" href="13_SubscribeCurve.html">1. SubscribeCurve</a></li>
-<li class="toctree-l2"><a class="reference internal" href="14_SubscribeMessages.html">2. SubscribeMessages</a></li>
-<li class="toctree-l2"><a class="reference internal" href="15_SubscribePointCloud.html">3. SubscribePointCloud</a></li>
-<li class="toctree-l2"><a class="reference internal" href="16_SubscribeGeometry.html">4. SubscribeGeometry</a></li>
-<li class="toctree-l2"><a class="reference internal" href="17_SubscribeParameter.html">5. SubscribeParameter</a></li>
-<li class="toctree-l2"><a class="reference internal" href="18_SubscribeUser.html">6. SubscribeUser</a></li>
-<li class="toctree-l2"><a class="reference internal" href="19_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; PointcloudBox</a></li>
-<li class="toctree-l2"><a class="reference internal" href="20_10_Tipps.html">2. 10 tipps &amp; Tricks for working with geometry</a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Grashopper Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Tutorials</a></li>
 </ul>
 
 <div class="relations">
 <h3>Related Topics</h3>
 <ul>
   <li><a href="../../../index.html">Documentation overview</a><ul>
-      <li>Previous: <a href="../../Viewer_PC/documentation_rst/6_Operation_menu.html" title="previous chapter"><span class="section-number">6. </span>Operation Menu</a></li>
-      <li>Next: <a href="02_connect.html" title="next chapter"><span class="section-number">1. </span>Connect</a></li>
   </ul></li>
 </ul>
 </div>
@@ -109,14 +84,19 @@
             
   <section id="grashopper-overview">
 <h1>Grashopper Overview<a class="headerlink" href="#grashopper-overview" title="Link to this heading">¶</a></h1>
-<p class="linemarker linemarker-4">There are 4 types of components in Radii Grashopper:
-<em>Connect</em> is the fundamental component to connect to a channel, it is always connected to all other components that are meant for publishing.
-<em>Publishing</em> components can send data to a channel and its connected receivers.
-<em>Saving</em> enables you to save localy to .radii files or on a channel in the cloud.
-<em>Subscribing</em> imports data from from a connected channel to your local Rhino Grashopper session. The data can then be further processed or saved.</p>
+<a class="reference internal image-reference" href="../../../_images/all_components.png"><img alt="../../../_images/all_components.png" src="../../../_images/all_components.png" style="width: 499.2px; height: 93.6px;" /></a>
+<p class="linemarker linemarker-8">There are 6 types of components:</p>
+<div class="line-block">
+<div class="line"><strong>Connect</strong> is the fundamental component to connect to a channel, it is always connected to all components that are in use.</div>
+<div class="line"><strong>Params</strong> relay the described datatype</div>
+<div class="line"><strong>Publishing</strong> components can send data to a channel and its connected receivers.</div>
+<div class="line"><strong>Saving</strong> enables you to save locally to .radii files or on a channel in the cloud.</div>
+<div class="line"><strong>Subscribing</strong> imports data from from a connected channel to your local Rhino Grashopper session. The data can then be further processed or saved.</div>
+<div class="line"><strong>Tools</strong> to modify point clouds</div>
+</div>
 <section id="grashopper-components">
 <h2>Grashopper Components<a class="headerlink" href="#grashopper-components" title="Link to this heading">¶</a></h2>
-<p class="linemarker linemarker-16"><strong>Publish Components</strong></p>
+<p class="linemarker linemarker-22"><strong>Publish Components</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
@@ -131,13 +111,13 @@
 <li class="toctree-l1"><a class="reference internal" href="11_publish_Message.html">10. PublishMessage</a></li>
 </ul>
 </div>
-<p class="linemarker linemarker-26"><strong>Save Content</strong></p>
+<p class="linemarker linemarker-32"><strong>Save Content</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="12_SaveContent.html">1. SaveContent</a></li>
 </ul>
 </div>
-<p class="linemarker linemarker-35"><strong>Subscribe Components</strong></p>
+<p class="linemarker linemarker-41"><strong>Subscribe Components</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="13_SubscribeCurve.html">1. SubscribeCurve</a></li>
@@ -148,11 +128,11 @@
 <li class="toctree-l1"><a class="reference internal" href="18_SubscribeUser.html">6. SubscribeUser</a></li>
 </ul>
 </div>
-<p class="linemarker linemarker-44"><strong>Tool Components &amp; Tipps</strong></p>
+<p class="linemarker linemarker-50"><strong>Tool Components &amp; Tips</strong></p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="19_Tools_PointCloudResource_subset.html">1. PointCloudReduce &amp; PointcloudBox</a></li>
-<li class="toctree-l1"><a class="reference internal" href="20_10_Tipps.html">2. 10 tipps &amp; Tricks for working with geometry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="20_10_Tips.html">10 tipps &amp; Tricks for working with geometry</a></li>
 </ul>
 </div>
 </section>

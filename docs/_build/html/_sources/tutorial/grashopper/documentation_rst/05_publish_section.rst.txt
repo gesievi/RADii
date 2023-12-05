@@ -24,7 +24,7 @@ Index       Select a plane from a list              Number
 Name        Description                             Type
 ==========  ======================================  ==============
 Log         Documents changes & Data send           Text
-Save        Connect to Savecontent for saving       Radii content
+Save        Connect to SaveContent for saving       Radii content
 ==========  ======================================  ==============
 
 **Menu**
@@ -37,5 +37,5 @@ Activate clipping planes:   clipping planes from rhino to be selected
 
 **Note:** 
 
-- In Rhino flipping a clipping plane is not recognised by Radii, rotating the plane by 180° however achives the same
+- In Rhino flipping a clipping plane is not recognized by Radii, rotating the plane by 180° however archives the same
 - Names of clipping planes are not carried over into the grashopper plugin

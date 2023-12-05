@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>2. 10 tipps &amp; Tricks for working with geometry &#8212; Radii Documentation 0.37-b documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=c1690824" />
+    <script src="../../../_static/documentation_options.js?v=97af2a21"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Tutorials" href="../../Quick_Guide/Quick_Guides.html" />
+    <link rel="prev" title="1. PointCloudReduce &amp; PointcloudBox" href="19_Tools_PointCloudResource_subset.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Radii Documentation</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=gesievi/&repo=RADii&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Setup/install_setup.html">Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Tutorials</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="01_Components_Overview.html">Grashopper Overview</a><ul>
+      <li>Previous: <a href="19_Tools_PointCloudResource_subset.html" title="previous chapter"><span class="section-number">1. </span>PointCloudReduce &amp; PointcloudBox</a></li>
+      <li>Next: <a href="../../Quick_Guide/Quick_Guides.html" title="next chapter">Tutorials</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="tipps-tricks-for-working-with-geometry">
+<h1><span class="section-number">2. </span>10 tipps &amp; Tricks for working with geometry<a class="headerlink" href="#tipps-tricks-for-working-with-geometry" title="Link to this heading">¶</a></h1>
+<table class="docutils align-default">
+<tbody>
+<tr class="row-odd"><td><p class="linemarker linemarker-8">1</p></td>
+<td><p class="linemarker linemarker-8">You shall use mesh count wisely</p></td>
+<td><p class="linemarker linemarker-8">Dont use thousands of vertices on a small door handle Manual: Chapter 4.3 PublishGeometry</p></td>
+</tr>
+<tr class="row-even"><td><p class="linemarker linemarker-9">2</p></td>
+<td><p class="linemarker linemarker-9">You shall not use hidden or duplicate objects and materials</p></td>
+<td><p class="linemarker linemarker-9">Purge objects that are never going to be seen by anybody or used by anything</p></td>
+</tr>
+<tr class="row-odd"><td><p class="linemarker linemarker-10">3</p></td>
+<td><p class="linemarker linemarker-10">You shall apply level of detail relative to object size, importance and distance</p></td>
+<td><p class="linemarker linemarker-10">Dont spend time and performance doing high level of detail on objects you will never get close to</p></td>
+</tr>
+<tr class="row-even"><td><p class="linemarker linemarker-11">4</p></td>
+<td><p class="linemarker linemarker-11">You shall keep texture resolutions low and relative object sizes</p></td>
+<td><p class="linemarker linemarker-11">Dont use large texture resolution on small objects</p></td>
+</tr>
+<tr class="row-odd"><td><p class="linemarker linemarker-12">5</p></td>
+<td><p class="linemarker linemarker-12">You shall trim and subsample point clouds relative to distance and visibility</p></td>
+<td><p class="linemarker linemarker-12">Dont use millions on points on something that is seen from far away or obscured by other objects</p></td>
+</tr>
+<tr class="row-even"><td><p class="linemarker linemarker-13">6</p></td>
+<td><p class="linemarker linemarker-13">You shall only apply collision to objects that auser is required to collide with</p></td>
+<td><p class="linemarker linemarker-13">Dont put collision on screws, nails, fixtures etc. Manual: Chapter 4.3 PublishGeometry</p></td>
+</tr>
+<tr class="row-odd"><td><p class="linemarker linemarker-14">7</p></td>
+<td><p class="linemarker linemarker-14">You shall target content to specific viewer platforms</p></td>
+<td><p class="linemarker linemarker-14">Dont expect to run a heavy scene on and underpowered platform like a mobile phone or Oculus Standalone</p></td>
+</tr>
+<tr class="row-even"><td><p class="linemarker linemarker-15">8</p></td>
+<td><p class="linemarker linemarker-15">You shall watch the scene for places of performance degradation</p></td>
+<td><p class="linemarker linemarker-15">Always test the scene for places where the performance drops (no lower than 25-30 fps) and react accordingly with any of the above</p></td>
+</tr>
+<tr class="row-odd"><td><p class="linemarker linemarker-16">9</p></td>
+<td><p class="linemarker linemarker-16">You shall only publish when needed</p></td>
+<td><p class="linemarker linemarker-16">Dont spam with content. Use a data dam to control when to send. Use a component for volatile content and another for large static content like context.</p></td>
+</tr>
+<tr class="row-even"><td><p class="linemarker linemarker-17">10</p></td>
+<td><p class="linemarker linemarker-17">You shall report bugs</p></td>
+<td><p class="linemarker linemarker-17">Always report a bug to the radii slack channel</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2023, ETH Zuerich Chair of Gramazio & Kohler.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../../../_sources/tutorial/grashopper/documentation_rst/20_10_Tips.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -29,7 +29,7 @@ Index           To switch between views                 Number
 Name      Description                             Type
 =======   ======================================  ==============
 Log       Documents changes & Data send           Text
-Save      Connect to Savecontent for saving       Radii content
+Save      Connect to SaveContent for saving       Radii content
 =======   ======================================  ==============
 
 **Menu**

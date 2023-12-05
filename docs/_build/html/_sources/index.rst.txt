@@ -10,12 +10,29 @@
 Radii Documentation
 **************************
 
-`RADii <https://radii.info/>`_ is a collaboration platform for 3D modells.
-RADii consists of a Rhino Grasshopper plugin to publish (upload) 3D Models and viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and experience them.
-It functions as a direct interface between the model you are working on and its experience.
-RADii is being developed by Thomas Lee since 2020. Since 2022 he is colaborating with Gramazio Kohler Research to further develop the tool in the context of the Immersive Design Studio.
-More information, updates and the programm can be found at radii.info
-This project is still under developement, should you find buggs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+`RADii <https://radii.info/>`_ is an immersive collaboration platform for 3D models, where you can upload 3D models and explore them.
+
+RADii consists of two parts: A Rhino Grasshopper plugin to publish (upload) 3D Models and viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore.
+
+RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the tool in the context of the Immersive Design Studio.
+More information, updates and the program can be found at `radii.info <https://radii.info/>`_.
+Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
+This project is still under development, should you find bugs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+
+Download Links
+==================
+
+Grashopper Plugin:
+
+- `Radii Win/Mac <https://radii.info/download/plugin/RADii.zip>`_
+-  `Radii Capture Win/Mac <https://radii.info/download/plugin/RADiiCapture.zip>`_
+
+PC Viewers
+
+- `Windows 10+ <https://radii.info/download/standard/RADii%20Viewer%20Setup.zip>`_
+- `macOS X <https://apps.apple.com/app/id1505325031>`_
+
+Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `radii.info <https://radii.info/>`_.
 
 
 
@@ -30,7 +47,7 @@ Table of Contents
    Home <self>
    tutorial/Setup/install_setup
    tutorial/Viewer_PC/documentation_rst/0_Viewer 
-   tutorial/grashopper/documentation_rst/01_Components_Overviev
+   tutorial/grashopper/documentation_rst/01_Components_Overview
    tutorial/Quick_Guide/Quick_Guides 
 
 Indices and tables

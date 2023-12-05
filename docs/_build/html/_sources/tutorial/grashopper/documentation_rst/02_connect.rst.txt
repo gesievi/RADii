@@ -12,7 +12,6 @@ Name            Description                            Type
 Connect        Start the connection to the server     Boolean
 Point to       The rhino view is sending a pointer    Boolean
 Follow         Everyone follows the rhino view        Boolean
-Test        Testtest                                Test
 ========    ====================================== ================
 
 **Output**
