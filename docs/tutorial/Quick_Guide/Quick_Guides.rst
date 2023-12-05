@@ -6,7 +6,7 @@ Overview page for Quickguides to be done
 
 **Guides**
 
-.. toctree::
+.. toctree:: 
     :titlesonly:
     :numbered:
     :glob:
