@@ -10,14 +10,17 @@
 Radii Documentation
 **************************
 
-`RADii <https://radii.info/>`_ is an immersive collaboration platform for 3D models, where you can upload 3D models and explore them.
+`RADii <https://radii.info/>`_ a Cloud platform where you can publish (upload) your
+3D Models, share, explore and collaborate on them. 
 
-RADii consists of two parts: A Rhino Grasshopper plugin to publish (upload) 3D Models and viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore.
+RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
 RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the tool in the context of the Immersive Design Studio.
 More information, updates and the program can be found at `radii.info <https://radii.info/>`_.
 Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
 This project is still under development, should you find bugs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+
+
 
 Download Links
 ==================
@@ -25,7 +28,7 @@ Download Links
 Grashopper Plugin:
 
 - `Radii Win/Mac <https://radii.info/download/plugin/RADii.zip>`_
--  `Radii Capture Win/Mac <https://radii.info/download/plugin/RADiiCapture.zip>`_
+- `Radii Capture Win/Mac <https://radii.info/download/plugin/RADiiCapture.zip>`_
 
 PC Viewers
 
@@ -42,8 +45,7 @@ Table of Contents
 .. toctree::
    :maxdepth: 2
    :titlesonly:
-   :glob:
-
+   
    Home <self>
    tutorial/Setup/install_setup
    tutorial/Viewer_PC/documentation_rst/0_Viewer 

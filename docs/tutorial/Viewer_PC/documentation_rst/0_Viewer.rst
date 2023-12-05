@@ -2,13 +2,13 @@
 Radii Viewer Overview
 ***********************
 
-The RADii Viewer is a program used to access the RADii channels.
+The RADii Viewer is a program used to connect to the RADii channels and explore the models.
 It can be run on Win/ Mac, Oculus, iOS 11+ Android 7+ and a browser.
 
-You can find a detailed documentation of all parts of the Radii Viewer in the following chapters. Please keep in mind that this project is still in
+In the following chapters you can find a detailed documentation of all parts of the Radii Viewer. Please keep in mind that this project is still in
 development and might have changed over time.
 
-In case you might find something unclear or missing please contact the Chair of Gramazio & Kohler at ETHZ gesievi@ethz.ch
+In case you might find something unclear, out of date or missing please contact the Chair of Gramazio & Kohler at ETHZ gesievi@ethz.ch
 
 
 **Keyboard Assignments**

@@ -1,6 +1,8 @@
 ************
 Users Menu
 ************
+.. image:: ../images/Icons/User.png
+    :scale: 200 %
 
 .. image:: ../images/Menu_users.png
 
