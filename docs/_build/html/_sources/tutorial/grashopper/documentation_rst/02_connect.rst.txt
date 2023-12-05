@@ -22,7 +22,7 @@ Name            Description                                     Type
 Connection   All further components have to be connected here   Radii components
 ===========  ================================================== ================
 
-.. image:: ../images/Connect/Connect.png
+.. image:: ../images/Connect/Connect_gh.png
     :scale: 80 %
 
 Right click menu:

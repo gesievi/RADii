@@ -1,7 +1,9 @@
 ***************************************************
-10 tipps & Tricks for working with geometry
+10 Rules for working with geometry
 ***************************************************
 
+Following these rules should prevent you from running into errors and performance issues. 
+This becomes more important in the later phases of a project.
 
 
 === ================================================================================    ==================================================================================================

@@ -2,6 +2,8 @@
 Remote Content Menu
 ********************
 
+.. image:: ../images/Icons/Cloud.png
+    :scale: 200 %
 
 .. image:: ../images/Menu_remote_content.png
 

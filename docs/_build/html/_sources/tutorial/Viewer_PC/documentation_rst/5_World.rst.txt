@@ -1,10 +1,12 @@
 ************
 World Menu
 ************
+.. image:: ../images/Icons/World.png
+    :scale: 200 %
 
 .. image:: ../images/Menu_world.png
 
-11. Camera
+1.  Camera
 
     - Field of view - controls the field of view at the cost of some distortion
     - Sensitivity - mouse sensitivity
