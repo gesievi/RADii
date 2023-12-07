@@ -3,7 +3,7 @@ Connect Menu
 ************
 
 .. image:: ../images/Icons/connect.png
-   :scale: 200 %
+
 
 .. image:: ../images/Menu_connect.png 
 
