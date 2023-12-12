@@ -18,7 +18,7 @@ RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D M
 .. image:: /tutorial/Radii_diagramms/06_Load_File.jpg
 
 
-RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the tool in the context of the Immersive Design Studio.
+RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
 More information, updates and the program can be found at `radii.info <https://radii.info/>`_.
 Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
 This project is still under development, should you find bugs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
