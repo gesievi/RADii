@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>5. World Menu &#8212; Radii Documentation 0.37 documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8691e056" />
+    <script src="../../../_static/documentation_options.js?v=ae02a30b"></script>
+    <script src="../../../_static/doctools.js?v=888ff710"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6. Operation Menu" href="6_Operation_menu.html" />
+    <link rel="prev" title="4. Users Menu" href="4_Users.html" />
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="world-menu">
+<h1><span class="section-number">5. </span>World Menu<a class="headerlink" href="#world-menu" title="Link to this heading">¶</a></h1>
+<a class="reference internal image-reference" href="../../../_images/World.png"><img alt="../../../_images/World.png" src="../../../_images/World.png" style="width: 48.0px; height: 48.0px;" /></a>
+<img alt="../../../_images/Menu_world.png" src="../../../_images/Menu_world.png" />
+<ol class="arabic simple">
+<li><p class="linemarker linemarker-9">Camera</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-11">Field of view - controls the field of view at the cost of some distortion</p></li>
+<li><p class="linemarker linemarker-12">Sensitivity - mouse sensitivity</p></li>
+<li><p class="linemarker linemarker-13">Speed - movement speed</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p class="linemarker linemarker-15"><strong>Note:</strong> turn slow when someone is following you through the project</p>
+</div></blockquote>
+<ol class="arabic simple" start="12">
+<li><p class="linemarker linemarker-17">Effects - turning them off increases performance</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-19">Motion = motion blur</p></li>
+<li><p class="linemarker linemarker-20">Bloom = makes bright spots bleed at the edges, simulating a real camera</p></li>
+<li><p class="linemarker linemarker-21">DOF = depth of field - distance between closest and furthest part of an image that are in focus</p></li>
+<li><p class="linemarker linemarker-22">Chrom = chromatic effect - adds artifacts to the image, simulating a poor len</p></li>
+<li><p class="linemarker linemarker-23">Vignet = darkening on the edges of images, simulating real cameras</p></li>
+<li><p class="linemarker linemarker-24">Inverse = clipping/sectioning leaves a ghost of the hidden geometry</p></li>
+</ul>
+</li>
+<li><p class="linemarker linemarker-26">Point Cloud</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-28">Point Size</p></li>
+<li><p class="linemarker linemarker-29">Point near size = increases point sizes near you</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p class="linemarker linemarker-32"><strong>Note:</strong> point clouds are disabled in IOS/Android viewers because they require a lot of computing power</p>
+</div></blockquote>
+<ol class="arabic simple" start="14">
+<li><p class="linemarker linemarker-34">Weather</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-36">Quality = resolution of the sky, above lv3 not significantly better</p></li>
+<li><p class="linemarker linemarker-37">Condition = types of weather: rainy, foggy and sunny</p></li>
+<li><p class="linemarker linemarker-38">Fog density = can hide the horizon but also your model</p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p class="linemarker linemarker-41"><strong>Note:</strong> for better performance: turn weather to sunny, fog off, quality to lowest</p>
+</div></blockquote>
+<ol class="arabic simple" start="15">
+<li><p class="linemarker linemarker-43">Time</p></li>
+<li><p class="linemarker linemarker-44">Transform</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-46">Rotation = rotates all models around the 0 point</p></li>
+<li><p class="linemarker linemarker-47">Scale</p></li>
+</ul>
+</li>
+<li><p class="linemarker linemarker-50">Select Viewer</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Standard</dt><dd><ul>
+<li><p class="linemarker linemarker-53">Stereo Shutter = for active 3D glasses</p></li>
+<li><p class="linemarker linemarker-54">Chroma Key = a virtual green screen</p></li>
+<li><p class="linemarker linemarker-55">Pepper Ghost = displays the model in a virtual box</p></li>
+<li><p class="linemarker linemarker-56">Augmented Reality (AR) = displays virtual model in a real environment - available on IOs, Android, Oculus</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="linemarker linemarker-57">Tracker Method = setting for AR devices</p></li>
+<li><dl class="simple">
+<dt>Projection = screen size settings</dt><dd><ul>
+<li><p class="linemarker linemarker-59">you can also edit the overall scale, height of horizon</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="linemarker linemarker-60">Grid = toggles the default floor</p></li>
+<li><p class="linemarker linemarker-61">Origin = toggles the origin point</p></li>
+</ul>
+</li>
+</ol>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../../../index.html">Radii Documentation</a></h1>
+
+
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=gesievi/&repo=RADii&type=watch&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Setup/install_setup.html">Setup</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="0_Viewer.html">Radii Viewer Overview</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="1_Connect.html">1. Connect Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2_Remote_content.html">2. Remote Content Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3_Publish.html">3. Publish Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="4_Users.html">4. Users Menu</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">5. World Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="6_Operation_menu.html">6. Operation Menu</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../grashopper/documentation_rst/01_Components_Overview.html">Grashopper Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Tutorials</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../../index.html">Documentation overview</a><ul>
+  <li><a href="0_Viewer.html">Radii Viewer Overview</a><ul>
+      <li>Previous: <a href="4_Users.html" title="previous chapter"><span class="section-number">4. </span>Users Menu</a></li>
+      <li>Next: <a href="6_Operation_menu.html" title="next chapter"><span class="section-number">6. </span>Operation Menu</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, ETH Zuerich Chair of Gramazio & Kohler.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../../../_sources/tutorial/Viewer_PC/documentation_rst/5_World.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
