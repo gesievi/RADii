@@ -11,8 +11,10 @@ the usage of the PublishAnimation component and the Scenario Manager of the Publ
 With PublishAnimation it is possible to send viewers on defined paths and save a series of controlled moments and interactions with 
 PublishControl.
 
+Abstract
 - walkthrough of how to do an animation 
   - animation from 7 simple planes https://www.youtube.com/shorts/9h1RwmqvWDQ
 - walkthrough on how to work with publishcontrol
 
 
+more coming soon
