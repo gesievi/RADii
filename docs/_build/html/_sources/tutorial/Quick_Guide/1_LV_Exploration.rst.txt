@@ -1,20 +1,5 @@
 .. ------Header
-    Links in case they change in the future.
-
-.. |RadiiLogo| image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/Radii_logo.png
-    :height: 50
-
-.. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
-
-.. _RadiiGrashopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
-
-.. _Connect: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html
-
-.. _PublishGeometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
-
-.. _PublishMaterial: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html
-
-.. _Setup: https://gesievi.github.io/Radii_doc/tutorial/Setup/install_setup.html
+    _ Hyperlinks that are wrtitten _Word are collected in the conf.py
 
 ************************************
 LV 1 Exploration tutorial
@@ -32,11 +17,13 @@ Radii Viewer
 
 |RadiiLogo|
 
-**1. Open the Radii Viewer** 
+**1. Open the RadiiViewer_** 
 
 Now you should have an empty scene in front of you, looking like this:
 
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/01_Start image.png
+.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/01_Start_image.png
+
+
 
 **Keyboard Assignments**
 
@@ -51,9 +38,11 @@ Left Mouse  Operation Menu (3.6)
 =========== ===================================
 
 
+
+
 **2. Open Viewer Main Menu**
 
-Right-click to open & close the main menu that appears on the right side of the window. The + and - at the top let you change the size of the menu.
+Right-click to open & close the ConnectMenu_ that appears on the right side of the window. The + and - at the top let you change the size of the menu.
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/02_Menue.png
 
