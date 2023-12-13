@@ -1,12 +1,18 @@
 ************
 Connect Menu
 ************
+.. icon Menu
+.. image:: /tutorial/Radii_Icons/connect.png
 
-.. image:: ../images/Icons/connect.png
 
-
+.. image of Radii and the Connect Menu
 .. image:: ../images/Menu_connect.png 
 
+This menu  is for connecting to a channel and logging into your Radii account.
+Logging into your Radii account gives you aces to personal and group channels, with more storage for your models.
+
+.. image:: 1_LV_Explo_Images/Viewer/02_Menu_zuschnitt.png
+  
 
 1. Custom Account from Radii.info
 

@@ -46,7 +46,7 @@ Now you should have an empty scene in front of you, looking like this:
 
 Right-click to open & close the ConnectMenu_ that appears on the right side of the window. The + and - at the top let you change the size of the menu.
 
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/02_Menue.png
+.. image:: /tutorial/Viewer_PC/images/02_Menue.png
 
 
 
@@ -54,8 +54,7 @@ Right-click to open & close the ConnectMenu_ that appears on the right side of t
 
 **3. Connect to channel**
 
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/02_Menu_zuschnitt.png
-    :alt: Zoom in Menu
+.. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
 
 
 Type your CHANNEL name in the "Your channel name" field and a nickname of your choice below (this name will be visible to other users in the channel) then press "connect" to join the channel.
