@@ -1,9 +1,11 @@
 .. ------Header
-    _ Hyperlinks that are wrtitten _Word are collected in the conf.py
+    _ Hyperlinks that are written xxxxx_ are collected in the conf.py so they can be modified at any time more easily.
 
 ************************************
 LV 1 Exploration tutorial
 ************************************
+
+Length: ca. 20 min
 
 This tutorial, is based on the Setup_, in case you have not read through it please do this first.
 It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin, on the basis of the 
@@ -16,14 +18,6 @@ Radii Viewer
 ======================
 
 |RadiiLogo|
-
-**1. Open the RadiiViewer_** 
-
-Now you should have an empty scene in front of you, looking like this:
-
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/01_Start_image.png
-
-
 
 **Keyboard Assignments**
 
@@ -38,6 +32,14 @@ Left Mouse  Operation Menu (3.6)
 =========== ===================================
 
 
+**1. Open the RadiiViewer_** 
+
+Now you should have an empty scene in front of you, looking like this:
+
+.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/01_Start_image.png
+
+
+
 
 
 **2. Open Viewer Main Menu**
@@ -47,7 +49,10 @@ Right-click to open & close the ConnectMenu_ that appears on the right side of t
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/02_Menue.png
 
 
-**Connect to channel**
+
+
+
+**3. Connect to channel**
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/02_Menu_zuschnitt.png
     :alt: Zoom in Menu
@@ -63,7 +68,7 @@ In the case that you are not able to receive any geometry, triple check that you
 
 You are now connected to a channel and can use the Radii viewer.
 
-
+.. ---------------------------------------------------------
 
 
 ====================

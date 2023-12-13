@@ -50,10 +50,11 @@ Table of Contents
    :titlesonly:
    
    Home <self>
-   tutorial/Setup/install_setup
+   tutorial/Setup/1_install_setup
    tutorial/Viewer_PC/documentation_rst/0_Viewer 
    tutorial/grashopper/documentation_rst/01_Components_Overview
    tutorial/Quick_Guide/Quick_Guides 
+   
 
 Indices and tables
 ==================

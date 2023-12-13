@@ -3,7 +3,7 @@ LV The simple review tutorial
 **********************************
 
 This tutorial explains what you need for a simple review/discussion with Radii.
-It details the usage of views and sections with the PublishViews and PublishSection components.
+It will teach you how to  the usage of views and sections with the PublishViews and PublishSection components.
 
 - how to save views in rhino 
 - import them in grashopper
