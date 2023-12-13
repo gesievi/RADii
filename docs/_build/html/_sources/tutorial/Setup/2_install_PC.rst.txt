@@ -1,6 +1,6 @@
-_______________
-Viewer PC/Mac
-_______________
+_____________________
+Radii Viewer PC/Mac
+_____________________
 
 
 .. image:: ../Setup/Images/Radii_Info_Downloads_Standard_viewer.png

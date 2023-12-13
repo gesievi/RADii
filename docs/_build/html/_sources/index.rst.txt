@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-.. image:: /tutorial/Quick_Guide/quick_guide_simple_images/Viewer/Radii_logo.png
+.. image:: /tutorial/Radii_Icons/Radii_logo.png
 
 **************************
 Radii Documentation
@@ -30,13 +30,13 @@ Download Links
 
 Grashopper Plugin:
 
-- `Radii Win/Mac <https://radii.info/download/plugin/RADii.zip>`_
-- `Radii Capture Win/Mac <https://radii.info/download/plugin/RADiiCapture.zip>`_
+- `Radii Grashopper Win/Mac`_
+- `Radii Capture Win/Mac`_
 
 PC Viewers
 
-- `Windows 10+ <https://radii.info/download/standard/RADii%20Viewer%20Setup.zip>`_
-- `macOS X <https://apps.apple.com/app/id1505325031>`_
+- `Windows 10+`_
+- `macOS X`_
 
 Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `radii.info <https://radii.info/>`_.
 

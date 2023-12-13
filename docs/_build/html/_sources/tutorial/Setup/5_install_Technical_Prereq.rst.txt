@@ -3,6 +3,7 @@ Technical Prerequisites
 *********************************
 
 1. PC/Mac with internet connection
+   
   - min. 4 GB of RAM
   - a medium 
   - power and ram capacity can vary greatly depending on the size and detail of the 3D model.

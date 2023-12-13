@@ -1,6 +1,10 @@
 .. ------Header
     _ Hyperlinks that are written xxxxx_ are collected in the conf.py so they can be modified at any time more easily.
 
+.. |RadiiLogo| image:: ../Radii_Icons/Radii_logo.png
+    :height: 50
+
+
 ************************************
 LV 1 Exploration tutorial
 ************************************
@@ -19,6 +23,7 @@ Radii Viewer
 
 |RadiiLogo|
 
+
 **Keyboard Assignments**
 
 =========== ===================================
@@ -36,7 +41,7 @@ Left Mouse  Operation Menu (3.6)
 
 Now you should have an empty scene in front of you, looking like this:
 
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/01_Start_image.png
+.. image:: /tutorial/Viewer_PC/images/01_Start_image.png
 
 
 
