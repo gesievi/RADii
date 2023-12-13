@@ -73,13 +73,16 @@ html_static_path = ['_Font']
 # Prolog for linking between files https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-rst_prolog
 # the Radii Logo can be called with |xyz|
 rst_prolog = """
-.. |RadiiLogo| image:: ../Quick_Guide/1_LV_Explo_Images/Viewer/Radii_logo.png
-    :height: 50
 
 .. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
 .. _RadiiGrashopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
 .. _Setup: https://gesievi.github.io/Radii_doc/tutorial/Setup/install_setup.html
 
+.. _Radii Grashopper Win/Mac: https://radii.info/download/plugin/RADii.zip
+.. _Radii Capture Win/Mac: https://radii.info/download/plugin/RADiiCapture.zip
+.. _Windows 10+: https://radii.info/download/standard/RADii%20Viewer%20Setup.zip
+.. _macOS X: https://apps.apple.com/app/id1505325031
+.. _VR .apk: https://radii.info/download/vr/RADii%20Viewer%20VR.zip
 
 .. _Connect: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html
 .. _PublishGeometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
