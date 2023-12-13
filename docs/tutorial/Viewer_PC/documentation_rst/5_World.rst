@@ -1,8 +1,7 @@
 ************
 World Menu
 ************
-.. image:: ../images/Icons/World.png
-    :scale: 200 %
+.. image:: /tutorial/Radii_Icons/World.png
 
 .. image:: ../images/Menu_world.png
 

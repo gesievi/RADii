@@ -1,7 +1,10 @@
 ************
 Publish Menu
 ************
+.. icon Menu
 
+.. image:: /tutorial/Radii_Icons/publish_circle_48.png
+    :scale: 50
 
 .. image:: ../images/Menu_publish.png
 
