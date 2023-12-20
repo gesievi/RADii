@@ -11,10 +11,10 @@ LV 1 Exploration tutorial
 
 Length: ca. 20 min
 
-This tutorial, is based on the Setup_, in case you have not read through it please do this first.
-It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin, on the basis of the 
-introduction given at the Immersive Design Studio at ETH D-Arch. It will teach you first how to explore a model on Radii 
-and then how you send it to someone else.
+This tutorial, is based on the Setup_ guide.
+
+It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin.
+It will teach you how to explore a model with Radii and how you send(upload) 
 
 
 ======================
