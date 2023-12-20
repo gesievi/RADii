@@ -5,7 +5,7 @@ World Menu
 
 .. image:: ../images/Menu_world.png
 
-1.  Camera
+11.  **Camera**
 
     - Field of view - controls the field of view at the cost of some distortion
     - Sensitivity - mouse sensitivity
@@ -13,7 +13,7 @@ World Menu
 
   **Note:** turn slow when someone is following you through the project
 
-12.   Effects - turning them off increases performance
+12.   **Effects** - turning them off increases performance
 
       - Motion = motion blur
       - Bloom = makes bright spots bleed at the edges, simulating a real camera
@@ -22,7 +22,7 @@ World Menu
       - Vignet = darkening on the edges of images, simulating real cameras
       - Inverse = clipping/sectioning leaves a ghost of the hidden geometry
 
-13.   Point Cloud
+13.   **Point Cloud**
 
       - Point Size
       - Point near size = increases point sizes near you
@@ -30,7 +30,7 @@ World Menu
 
   **Note:** point clouds are disabled in IOS/Android viewers because they require a lot of computing power
 
-14.  Weather
+14.  **Weather**
 
      - Quality = resolution of the sky, above lv3 not significantly better
      - Condition = types of weather: rainy, foggy and sunny
@@ -39,14 +39,14 @@ World Menu
 
   **Note:** for better performance: turn weather to sunny, fog off, quality to lowest
 
-15. Time
-16. Transform
+15. **Time**
+16. **Transform**
 
     - Rotation = rotates all models around the 0 point
     - Scale
 
 
-17. Select Viewer
+17. **Select Viewer**
 
     - Standard
 		- Stereo Shutter = for active 3D glasses

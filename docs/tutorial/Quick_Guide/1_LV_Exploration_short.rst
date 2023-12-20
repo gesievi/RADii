@@ -6,7 +6,7 @@
 
 
 ************************************
-Basics & Exploration tutorial
+Short Basics & Exploration tutorial
 ************************************
 
 Length: ca. 20 min
@@ -39,13 +39,9 @@ Left Mouse  `Operation Menu`_
 
 **1. Open the `Radii Viewer`_** 
 
-Now you should have an empty scene in front of you, looking like this:
+**2. Open the Main Menu**
 
-.. image:: /tutorial/Viewer_PC/images/01_Start_image.png
-
-**2. Open Viewer Main Menu**
-
-Right-click to open & close the `Connect Menu`_ that appears on the right side of the window. The + and - at the top let you change the size of the menu.
+Right-click to open & close the `Connect Menu`_.
 
 .. image:: /tutorial/Viewer_PC/images/02_Menue.png
 
@@ -54,14 +50,13 @@ Right-click to open & close the `Connect Menu`_ that appears on the right side o
 
 .. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
 
-Conect to your channel as explained in the `Connect Menu`_ 3. Connect to channel
+Connect to the channel as described in section 3 of the `Connect Menu`_ by writing the Channelname, the Nickname and pressing connect.
 
 Note: If you type in a channel name that does not exist so far it is generated and you will be able to connect nonetheless, this means that in case of a typo you will not be notified that something is wrong with your channel name.
-In the case that you are not able to receive any geometry, triple check that you have the right address.
 
 **Congratulation** 
 
-You are now connected to a channel and can use the Radii viewer.
+You are now connected to a channel and can explore the model.
 
 .. ---------------------------------------------------------
 
@@ -70,9 +65,9 @@ You are now connected to a channel and can use the Radii viewer.
 Radii grashopper 
 ====================
 
-This is a quick introduction into publishing/uploading your files to RADii.
-While it is possible to publish in the public channel without an account on radii.info we advice to make one if you want to have your personal space.
-You can do substantially more with the tool as you will find in more detail on the `Radii Viewer`_ and RadiiGrashopper_ documentation
+This is a short introduction into publishing/uploading your files to RADii.
+We advice to make a Radii account at radii.info if you want to have your personal space and more storrage.
+More Detail can be found at RadiiGrashopper_ documentation
 
 *The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*
 
@@ -81,19 +76,19 @@ You can do substantially more with the tool as you will find in more detail on t
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/01_Quick_Guide_Publisher.png
 
-Every RadiiGrashopper_ file starts with the Connect_ component it always comes with a boolean (True/False) and the actual 
-component. Every component that is intended for publication(sending) will have to be connected to this first one via the connect in- and Output.
+Every RadiiGrashopper_ file starts with the Connect_ |Connect| component.
+To it, you connect the PublishMaterial_ |PublishMaterial_icon| and the PublishGeometry_ |PublishGeometry_icon|, components.
+Add a geometry pipeline or any geometry to the later as shown in the picture.
 
-Second comes the PublishGeometry_ component that is connected to the Connect_. It needs a geometry input of any kind,
-in our case we use a geometry pipeline. Make sure to activate the two icons on the right as shown in the example picture, they should be in color.
 
-Third is PublishMaterial_ , add it to the file and connect it to Connect_ . It will include possible textures of your model. 
-
+.. |Connect| image:: /tutorial/Radii_Icons/ConnectParam.png
+.. |PublishMaterial_icon| image:: /tutorial/Radii_Icons/Material.png
+.. |PublishGeometry_icon| image:: /tutorial/Radii_Icons/Mesh.png
 
 
 **2. Enter Credentials**
 
-Right click on the Connect component and log in with your Radii.info account and password you have created during the setup_ on Radii.info,
+Log in with your Radii.info account and password you have created during the setup_ on Radii.info as shown.
 left click on "load account" to log in.
 Your private domain will show up under - CHANNEL - and possibly others if you are part of a class or group, we have blanked out our group name in the example image.
 

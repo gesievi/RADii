@@ -7,7 +7,7 @@ Users Menu
 
 **Users - List of all data in the viewer**
 
-1. Import / Editor / Viewer
+9. **Import / Editor / Viewer**
 
    - Import = data loaded from RADii file
     
@@ -23,6 +23,6 @@ Users Menu
   
    - Viewer  all other viewers that are on the channel
 
-2.  Data & Cameras = toggle labels
+10.  **Data & Cameras** = toggle labels
 
     - Clear = delete all content from viewer

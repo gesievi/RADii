@@ -70,8 +70,10 @@ html_theme_options =  {
 html_static_path = ['_Font']
 
 
-# Prolog for linking between files https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-rst_prolog
-# the Radii Logo can be called with |xyz|
+# Prolog is an index that helps with linking between files https://www.sphinx-doc.org/en/master/usage/configuration.html#confval-rst_prolog
+# It works by pasting what is noted under rst_prolog in the beginning of every rst file. this way you can call the shortcuts and can edit them on this central location.
+#  the Radii Logo can be called with |xyz| --- did not work so was taken out again. Did not work with relative pathing.
+# Aliases with spaces are calles with `Operation Menu`_ in the specific pages
 rst_prolog = """
 
 .. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
@@ -88,7 +90,12 @@ rst_prolog = """
 .. _PublishGeometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
 .. _PublishMaterial: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html
 
-.. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
-.. _ConnectMenu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/1_Connect.html
+.. _Radii Viewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
+.. _Connect Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/1_Connect.html
+.. _Operation Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
+
 
 """
+ 
+ 
+ 
