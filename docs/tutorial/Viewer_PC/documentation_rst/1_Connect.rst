@@ -26,7 +26,7 @@ Logging into your Radii account gives you aces to personal and group channels, w
    - Nickname - displayed for others on the server
 
 
-    Note: If you type in a channel name that does not exist so far it is generated and you will be able to connect nonetheless, this means that in case of a typo you will not be notified that something is wrong with your channel name.
+    *Note*: If you type in a channel name that does not exist so far it is generated and you will be able to connect nonetheless, this means that in case of a typo you will not be notified that something is wrong with your channel name.
 
 4. **Subscription**
 

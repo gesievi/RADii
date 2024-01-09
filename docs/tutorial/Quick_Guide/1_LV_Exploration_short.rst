@@ -14,7 +14,7 @@ Length: ca. 20 min
 This tutorial, is based on the Setup_ guide.
 
 It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin.
-Afterward you will be able to explore a model with Radii and you send(upload) geometry.
+Afterward you will be able to explore a model with Radii and you publish(upload) geometry.
 
 
 ======================
@@ -37,7 +37,7 @@ Left Mouse  `Operation Menu`_
 =========== ===================================
 
 
-**1. Open the `Radii Viewer`_** 
+**1. Open the** `Radii Viewer`_ 
 
 **2. Open the Main Menu**
 
@@ -52,9 +52,8 @@ Right-click to open & close the `Connect Menu`_.
 
 Connect to the channel as described in section 3 of the `Connect Menu`_ by writing the Channelname, the Nickname and pressing connect.
 
-Note: If you type in a channel name that does not exist so far it is generated and you will be able to connect nonetheless, this means that in case of a typo you will not be notified that something is wrong with your channel name.
 
-**Congratulation** 
+**4. Congratulation** 
 
 You are now connected to a channel and can explore the model.
 
