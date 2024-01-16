@@ -9,7 +9,7 @@
 Basics & Exploration tutorial
 ************************************
 
-Length: ca. 20 min
+Length: ca. 15 min
 
 This tutorial, is based on the Setup_ guide.
 
@@ -17,7 +17,7 @@ It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin
 Afterward you will be able to explore a model with Radii and you publish(upload) geometry.
 
 
-======================
+
 Radii Viewer
 ======================
 
@@ -50,7 +50,7 @@ Right-click to open & close the `Connect Menu`_.
 
 .. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
 
-Connect to the channel as described in section 3 of the `Connect Menu`_ by writing the Channelname, the Nickname and pressing connect.
+Connect to the channel, as described in section 3 of the `Connect Menu`_.
 
 
 **4. Congratulation** 
@@ -68,7 +68,7 @@ Radii grashopper
 ====================
 
 This is a short introduction into publishing/uploading your files to RADii.
-We advice to make a Radii account as shown in the setup_.
+We advice to make a Radii account as shown in the setup_ under point 2.
 Further information about the grashopper plugin can be found in the RadiiGrashopper_ section.
 
 *The following tutorial will publish/upload all the geometry that is present in your rhino file. Use it with care and not with big models.*
@@ -98,7 +98,7 @@ Input your Radii account details and left click on "load account" to log in.
 
 **3. Choose domain and channel**
 
-Right click on the Connect component and select "username >  My Domain", to publish on your private domain.
+Select "username >  My Domain", to publish on your private domain.
 
 For further information about channel addresses go to Connect_.
 
@@ -112,7 +112,7 @@ For further information about channel addresses go to Connect_.
 
 **4. Connect**
 
-To activate the connection to the channel double click on the dark "false" on the Boolean Toggle to turn it into true.
+To activate the connection to the channel by turning the Toggle into true.
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/05_Quick_Guide_Publisher_true.png
 
