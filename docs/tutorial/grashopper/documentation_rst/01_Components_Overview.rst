@@ -1,5 +1,5 @@
 ********************
-Grashopper Overview
+Radii Grashopper
 ********************
 
 .. image:: ../images/all_components.png

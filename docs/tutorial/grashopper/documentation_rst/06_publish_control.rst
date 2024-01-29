@@ -5,7 +5,7 @@ PublishControl
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish control lets you control the viewer settings from grashopper
+Publish control lets you control the viewer settings from grasshopper
  - Everything you set as input can be saved in this publish control component with the scenario manager. Be careful with geometry content, this can make your grasshopper file very heavy. 
    
    Note: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
@@ -80,10 +80,13 @@ Load        loading from the channel
 Duration    of the scenario
 ==========  ==============================================================================================
 
-The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow.
+**Tips**
 
-The current :code:`best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the
+- The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
+  - In this case turn off the grasshopper autosave setting as it will slow you down  
+- :code:`Best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the
 download via the publishControl --> File settings
+
 
 
 **Examples**

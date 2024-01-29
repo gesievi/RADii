@@ -2,7 +2,8 @@
 Connect
 ************
 
-The connect component is the central component of the radii plugin, every other component is connected to the connection part.
+The connect component is the **central component** of the radii plugin, every other component is connected to it, via "Connection" output.
+Only those components who are connected will be published, when you switch the Toggle to true.
 
 **Input**
 
@@ -25,18 +26,41 @@ Connection   All further components have to be connected here   Radii components
 .. image:: ../images/Connect/Connect_gh.png
     :scale: 80 %
 
-Right click menu:
+**Right click menu:**
 
 .. image:: ../images/Connect/Connect.1.png
 
-- Give yourself a nickname - this will be your visible name in the viewer
+- Give yourself a *nickname* (this will be your name for other user in the viewer)
 - input your:
     - User Name
     - Password
-- click on load account
-- if you do not have an account create one on radii.info
+- click on "load account"
+- if you do not have an account create one on `radii.info`_
 
-Note: please use your ETH-mail so we can connect you to the studio
+Note: If you are part of a group or organization please use the respective email address.
 
 .. image:: ../images/Connect/Connect.11.png
+
+
+
+**About channels and subchannels and subsubsubchannels**
+The way to write channel addresses in the viewer is channelname.subchannel.sub.sub and can be endlessly extended. 
+In Radii grashopper the same address is reached by logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
+typing subchannel.sub.sub 
+
+.. image:: /tutorial/Quick_Guide//1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
+
+
+Example:
+The channelname "sun" in grashopper:
+-channel-
+Sun > My Domain
+
+-subchannel-
+hs23.g1
+
+In the Radii viewer:
+-channel-
+sun.hs23.g1 
+
 

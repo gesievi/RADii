@@ -1,13 +1,17 @@
 **********************************
-LV The simple review tutorial
+Review tutorial
 **********************************
 
-This tutorial explains what you need for a simple review/discussion with Radii.
-It details the usage of views and sections with the PublishViews and PublishSection components.
+This tutorial explains and lists what kind of setup is needed for a simple review/discussion in Radii. 
+It is based on the fundamentals in the `Basics & Exploration tutorial`_.
+In our experience a simple review is a conversation during witch you are free to explore, usually it needs a series of specific views and sections to
+guide the conversation. 
 
-- how to save views in rhino 
-- import them in grashopper
-- set them through publish view
-- setting a list of planes --> importing them --> cycle through
-- Viewer how to click on views --> how to toggle them
+For this you need to connect to the `Connect`_ component the:
 
+- PublishGeometry_
+- PublishMaterial_
+- `Publish View`_
+- `Publish Section`_
+
+For more information consol the respective entries. 

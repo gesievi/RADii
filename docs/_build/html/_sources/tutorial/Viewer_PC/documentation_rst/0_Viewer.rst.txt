@@ -1,5 +1,5 @@
 ***********************
-Radii Viewer Overview
+Radii Viewer
 ***********************
 
 The RADii Viewer is a program used to connect to the RADii channels and explore the models.
@@ -19,10 +19,9 @@ Jump        Space
 Shift       Sprint
 Q Fly       Up
 E Fly       Down
-Right Mouse Main Menu (open,close)(3.1-3.5)
-Left Mouse  Operation Menu (3.6)
+Right Mouse Main Menus (open,close)
+Left Mouse  `Operation Menu`_ 
 =========== ===================================
-
 
 **Viewer Page Menu:**
 

@@ -1,9 +1,33 @@
 
 Todo:
+<<<<<<< Updated upstream
 - write a documentation for the technikal part on operating a studio 
     - how to get to a server ETH - write thomas
-    - minimum device requirement - for radii viewer, publishing and viewing at the same time, 
-    - Available ports that are accessible 
+    
+    
+  
+- Modulares setup 
+- technical prerequisites site needs overwork
+- viewer menues need an overwork - bigger maybe no numbers
+- Guide should be modular and just point you to the respective tutorial parts.
+=======
+    - write a documentation for the technikal part on operating a studio 
+        - how to get to a server ETH - write thomas
+        - minimum device requirement - for radii viewer, publishing and viewing at the same time, 
+        - Available ports that are accessible 
   
 Thomas Lee: 
 - Animation from 7 Planes 
+
+
+Todo:
+    - Rewrite the First guide linking to videos etc. 
+        - first picture what to expect from the tutorial
+        - then short summary that links to individual tutorials 
+        - should the tut
+
+    - Rework the Viewer Tutorials
+        - Menus are to smal to be seen in the current layout 
+        - Less Points more take the icons out ? or write right next to it !
+
+>>>>>>> Stashed changes

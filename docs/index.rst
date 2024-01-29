@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-.. image:: /tutorial/Quick_Guide/quick_guide_simple_images/Viewer/Radii_logo.png
+.. image:: /tutorial/Radii_Icons/Radii_logo.png
 
 **************************
 Radii Documentation
@@ -15,7 +15,10 @@ Radii Documentation
 
 RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
-RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the tool in the context of the Immersive Design Studio.
+.. image:: /tutorial/Radii_diagramms/06_Load_File.jpg
+
+
+RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
 More information, updates and the program can be found at `radii.info <https://radii.info/>`_.
 Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
 This project is still under development, should you find bugs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
@@ -27,13 +30,13 @@ Download Links
 
 Grashopper Plugin:
 
-- `Radii Win/Mac <https://radii.info/download/plugin/RADii.zip>`_
-- `Radii Capture Win/Mac <https://radii.info/download/plugin/RADiiCapture.zip>`_
+- `Radii Grashopper Win/Mac`_
+- `Radii Capture Win/Mac`_
 
 PC Viewers
 
-- `Windows 10+ <https://radii.info/download/standard/RADii%20Viewer%20Setup.zip>`_
-- `macOS X <https://apps.apple.com/app/id1505325031>`_
+- `Windows 10+`_
+- `macOS X`_
 
 Further viewers for VR, Mobile, Looking Glass and the Webviewer can be found at `radii.info <https://radii.info/>`_.
 
@@ -47,10 +50,10 @@ Table of Contents
    :titlesonly:
    
    Home <self>
-   tutorial/Setup/install_setup
    tutorial/Viewer_PC/documentation_rst/0_Viewer 
    tutorial/grashopper/documentation_rst/01_Components_Overview
    tutorial/Quick_Guide/Quick_Guides 
+   
 
 Indices and tables
 ==================

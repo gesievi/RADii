@@ -1,6 +1,10 @@
 *****************************
-Lv Collaborative tutorial
+Collaborative tutorial
 *****************************
+
+------------------------------------------
+----------Work in Progress--------------
+------------------------------------------
 
 Usually Radii works in one direction one or many send content to one or a number of viewers, without any feedback.
 The collaborative components under the Subscribe section in Rhino can change this and feed back into the Rhino session. 
@@ -12,4 +16,4 @@ Content could be:
 - users play with geometry collectively and this is then saved as a rhino session 
 
 
-Add rest of the content later
+More Coming soon

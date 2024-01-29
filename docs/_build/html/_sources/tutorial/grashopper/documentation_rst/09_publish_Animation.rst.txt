@@ -5,6 +5,7 @@ PublishAnimation
 .. image:: ../images/Publish/Publish_animation.png
     :scale: 90 %
 
+Example: https://www.youtube.com/shorts/9h1RwmqvWDQ
 
 **Input**
 
