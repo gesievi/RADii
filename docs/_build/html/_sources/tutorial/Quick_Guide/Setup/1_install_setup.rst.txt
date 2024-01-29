@@ -21,11 +21,3 @@ For your own domain, more storrage, advanced management and functionalities
     - it is not necessary to set a domain name
 
 
-**Setup Page Menu:**
-
-.. toctree::
-    :titlesonly:
-    :numbered:
-    :glob:
-    
-    *

@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>5. PublishControl &#8212; Radii Documentation 0.37 documentation</title>
-    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8691e056" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=d1102ebc" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8cfb32c5" />
     <script src="../../../_static/documentation_options.js?v=ae02a30b"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
@@ -18,8 +18,9 @@
    
   <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
   
+
   
-  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+  
 
   </head><body>
   
@@ -35,7 +36,7 @@
 <h1><span class="section-number">5. </span>PublishControl<a class="headerlink" href="#publishcontrol" title="Link to this heading">¶</a></h1>
 <a class="reference internal image-reference" href="../../../_images/Publish__controll.png"><img alt="../../../_images/Publish__controll.png" src="../../../_images/Publish__controll.png" style="width: 685.6px; height: 585.6px;" /></a>
 <dl>
-<dt>Publish control lets you control the viewer settings from grashopper</dt><dd><ul>
+<dt>Publish control lets you control the viewer settings from grasshopper</dt><dd><ul>
 <li><p>Everything you set as input can be saved in this publish control component with the scenario manager. Be careful with geometry content, this can make your grasshopper file very heavy.</p>
 <p>Note: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot</p>
 </li>
@@ -193,9 +194,13 @@
 </tr>
 </tbody>
 </table>
-<p>The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow.</p>
-<p>The current <code class="code docutils literal notranslate"><span class="pre">best</span> <span class="pre">practice</span> <span class="pre">for</span> <span class="pre">heavy</span> <span class="pre">geometry</span></code> is to upload it to the server via the cloud manager in the save component and then command the
-download via the publishControl –&gt; File settings</p>
+<p><strong>Tips</strong></p>
+<ul class="simple">
+<li><p>The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
+- In this case turn off the grasshopper autosave setting as it will slow you down</p></li>
+<li><p><code class="code docutils literal notranslate"><span class="pre">Best</span> <span class="pre">practice</span> <span class="pre">for</span> <span class="pre">heavy</span> <span class="pre">geometry</span></code> is to upload it to the server via the cloud manager in the save component and then command the</p></li>
+</ul>
+<p>download via the publishControl –&gt; File settings</p>
 <p><strong>Examples</strong></p>
 <p>You have some geometry (a building) and want to publish or download from the server (1), then walk through it, change the time of the day (2) and
 continue your tour via a series of pre defined views (3-4).
@@ -237,7 +242,6 @@ them as individual scenarios. You then can switch through them during your prese
 <h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../../index.html">Home</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Setup/1_install_setup.html">Setups</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="01_Components_Overview.html">Radii Grashopper</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="02_connect.html">1. Connect</a></li>
@@ -261,7 +265,7 @@ them as individual scenarios. You then can switch through them during your prese
 <li class="toctree-l2"><a class="reference internal" href="20_10_Tips.html">2. 10 Rules for working with geometry</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Tutorials</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Quick_Guide/Quick_Guides.html">Guides</a></li>
 </ul>
 
 <div class="relations">
@@ -298,11 +302,11 @@ them as individual scenarios. You then can switch through them during your prese
       <div class="clearer"></div>
     </div>
     <div class="footer">
-      &copy;2023, ETH Zuerich Chair of Gramazio & Kohler.
+      &#169;2023, ETH Zuerich Chair of Gramazio & Kohler.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 0.7.15</a>
       
       |
       <a href="../../../_sources/tutorial/grashopper/documentation_rst/06_publish_control.rst.txt"
