@@ -80,10 +80,12 @@ Load        loading from the channel
 Duration    of the scenario
 ==========  ==============================================================================================
 
-The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow.
+**Tipps**
 
-The current :code:`best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the
+- The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow.
+- :code:`Best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the
 download via the publishControl --> File settings
+
 
 
 **Examples**
