@@ -25,8 +25,9 @@ For this you need to connect to the `Connect`_ component the:
 
 
 
-Examples: 
-- animation from 7 simple planes  https://www.youtube.com/shorts/9h1RwmqvWDQ
+Examples:
+
+- Animation from 7 simple planes  https://www.youtube.com/shorts/9h1RwmqvWDQ
 - `Publish Control`_: https://www.youtube.com/watch?v=U9Uv8wFHlSQ
 
 

@@ -1,5 +1,5 @@
 _____________________
-Radii Viewer PC/Mac
+Setup Viewer PC/Mac
 _____________________
 
 
@@ -12,6 +12,6 @@ _____________________
 4. **Start** RADii Viewer
 
 
-.. image:: ../Viewer_PC/images/Menu_connect_blank.png
+.. image:: .../Viewer_PC/images/Menu_connect_blank.png
 
 **Congratulations** you have installed Radii. On how to use Radii consult the Quick Guide and the Viewer documentation
