@@ -38,7 +38,15 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', "tutorial/grashopper/documentation_rst/Vorlage.rst", "conf2.py", "index2.rst", "readme.rst"]
+exclude_patterns = ['_build',
+'Thumbs.db',
+'.DS_Store',
+"tutorial/grashopper/documentation_rst/Vorlage.rst",
+"conf2.py", "index2.rst", "readme.rst",
+"tutorial/Quick_Guide/1_LV_Exploration.rst",
+
+
+]
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -80,6 +88,7 @@ rst_prolog = """
 .. _RadiiGrashopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
 .. _Setup: https://gesievi.github.io/Radii_doc/tutorial/Setup/install_setup.html
 
+.. _radii.info: https://radii.info/
 .. _Radii Grashopper Win/Mac: https://radii.info/download/plugin/RADii.zip
 .. _Radii Capture Win/Mac: https://radii.info/download/plugin/RADiiCapture.zip
 .. _Windows 10+: https://radii.info/download/standard/RADii%20Viewer%20Setup.zip
@@ -89,11 +98,17 @@ rst_prolog = """
 .. _Connect: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html
 .. _PublishGeometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
 .. _PublishMaterial: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html
+.. _Publish View: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/07_publish_View.html
+.. _Publish Section: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/05_publish_section.html
+.. _Publish Animation: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html
+.. _Publish Control: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/06_publish_control.html
+.. _
 
 .. _Radii Viewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
 .. _Connect Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/1_Connect.html
 .. _Operation Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
 
+.. _Basics & Exploration tutorial: https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_short.html
 
 """
  

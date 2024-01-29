@@ -1,20 +1,32 @@
 **********************************
-Lv Presentation & Story tutorial
+Presentation & Story tutorial
 **********************************
 
-A presentation in Radii is different from showing plans with strictly defined views and perspectives, the participants can
+A presentation in Radii is different from showing plans, the participants can
 explore for themselves and you can guide them through your model. This explorative approach 
-is more akin to a museum tour, the visit to an existing building or a performance were you are free to explore for yourself and change perspective.
+is more akin to a physical tour, the visit to an existing building or a performance were you are free to explore for yourself and change perspective.
 
-Thus a presentation in Radii can have specific shared elements, this can be done through 
-the usage of the PublishAnimation component and the Scenario Manager of the PublishControl component.
-With PublishAnimation it is possible to send viewers on defined paths and save a series of controlled moments and interactions with 
-PublishControl.
+If you want to show a prepared presentation in Radii that can alternates between defined shared moments and exploration, with an advanced level of changes 
+the usage of the `Publish Animation`_ component and the Scenario Manager of the `Publish Control`_ component.
+With `Publish Animation`_ it is possible to send viewers on defined paths and with `Publish Control`_ save a series of controlled moments and interactions and switch through them.
 
-Abstract
-- walkthrough of how to do an animation 
+
+
+For this you need to connect to the `Connect`_ component the:
+
+- PublishGeometry_
+- PublishMaterial_
+- `Publish View`_
+- `Publish Section`_
+- `Publish Animation`_
+- `Publish Control`_
+
+
+
+
+
+Examples: 
 - animation from 7 simple planes  https://www.youtube.com/shorts/9h1RwmqvWDQ
-- walkthrough on how to work with publishcontrol
+- `Publish Control`_: https://www.youtube.com/watch?v=U9Uv8wFHlSQ
 
 
-more coming soon

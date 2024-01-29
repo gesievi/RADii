@@ -5,8 +5,12 @@
     :height: 50
 
 
+
+.. ----------------- IMPORTANT: OUT OF DATE AND ON THE EXCLUSION LIST IN CONF.PY  ----------------------------------------------
+
+
 ************************************
-Basics & Exploration tutorial
+Basics & Exploration tutorial old
 ************************************
 
 Length: ca. 20 min
@@ -54,7 +58,7 @@ Right-click to open & close the `Connect Menu`_ that appears on the right side o
 
 .. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
 
-Conect to your channel as explained in the `Connect Menu`_ 3. Connect to channel
+Connect to your channel as explained in the `Connect Menu`_ 3. Connect to channel
 
 Note: If you type in a channel name that does not exist so far it is generated and you will be able to connect nonetheless, this means that in case of a typo you will not be notified that something is wrong with your channel name.
 In the case that you are not able to receive any geometry, triple check that you have the right address.

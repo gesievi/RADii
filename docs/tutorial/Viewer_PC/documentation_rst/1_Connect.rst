@@ -2,8 +2,8 @@
 Connect Menu
 ************
 .. icon Menu
-.. image:: /tutorial/Radii_Icons/connect.png
 
+.. image:: /tutorial/Radii_Icons/connect.png
 
 .. image of Radii and the Connect Menu
 .. image:: ../images/Menu_connect.png 

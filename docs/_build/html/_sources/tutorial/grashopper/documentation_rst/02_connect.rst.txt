@@ -2,7 +2,8 @@
 Connect
 ************
 
-The connect component is the central component of the radii plugin, every other component is connected to the connection part.
+The connect component is the **central component** of the radii plugin, every other component is connected to it, via "Connection" output.
+Only those components who are connected will be published, when you switch the Toggle to true.
 
 **Input**
 
@@ -25,16 +26,16 @@ Connection   All further components have to be connected here   Radii components
 .. image:: ../images/Connect/Connect_gh.png
     :scale: 80 %
 
-Right click menu:
+**Right click menu:**
 
 .. image:: ../images/Connect/Connect.1.png
 
-- Give yourself a nickname (this will be your name for other user in the viewer)
+- Give yourself a *nickname* (this will be your name for other user in the viewer)
 - input your:
     - User Name
     - Password
-- click on load account
-- if you do not have an account create one on radii.info
+- click on "load account"
+- if you do not have an account create one on `radii.info`_
 
 Note: If you are part of a group or organization please use the respective email address.
 

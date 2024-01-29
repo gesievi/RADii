@@ -1,5 +1,5 @@
 *****************************
-Lv Collaborative tutorial
+Collaborative tutorial
 *****************************
 
 Usually Radii works in one direction one or many send content to one or a number of viewers, without any feedback.
