@@ -1,5 +1,5 @@
 ______________
-Radii Oculus
+Setup Oculus
 ______________
 
 Please be aware that the Oculus and its environments are subject to frequent changes, the following tutorial might be out of date or diverge slightly from the current state. We are hoping to release a viewer through the app store at a later stage.

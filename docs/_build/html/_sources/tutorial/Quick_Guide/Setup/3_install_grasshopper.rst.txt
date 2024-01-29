@@ -1,5 +1,5 @@
 _________________________
-Radii Grashopper Plugin
+Setup Grashopper Plugin
 _________________________
 
 The Radii Grashopper plugin runs in `Rhino 3D <https://www.rhino3d.com/>`_  
