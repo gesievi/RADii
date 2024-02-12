@@ -1,11 +1,11 @@
 **********************************
-Review tutorial
+Tutorial: Simple Presentation
 **********************************
 
-This tutorial explains and lists what kind of setup is needed for a simple review/discussion in Radii. 
-It is based on the fundamentals in the `Basics & Exploration tutorial`_.
-In our experience a simple review is a conversation during witch you are free to explore, usually it needs a series of specific views and sections to
-guide the conversation. 
+This tutorial explains and lists what kind of setup is needed for a simple presentation in Radii. 
+It is based on the fundamentals in the `Tutorial: Grashopper Basics`_.
+A simple presentation/review in Radii commonly consists out of free exploration, that is guided by a series of specific views and sections to
+shop specific points of interest. 
 
 For this you need to connect to the `Connect`_ component the:
 

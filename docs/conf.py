@@ -109,6 +109,10 @@ rst_prolog = """
 .. _Operation Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
 
 .. _Basics & Exploration tutorial: https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_short.html
+.. _Tutorial: Grashopper Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+.. _Tutorial: Viewer Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+
+
 
 """
  

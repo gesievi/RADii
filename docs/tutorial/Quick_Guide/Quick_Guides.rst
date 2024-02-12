@@ -3,19 +3,24 @@ Guides
 **************
 
 Welcome to the guide page, the following resources should give a quick entry into Radii.
-Starting with the installation you will find a description on every supported platform and then the guides for a range of use cases, sorted by difficulty.
-The text files will be updated more frequently than the videos, should you come across discrepancies between the videos and what you encounter in Radii.
+Starting with the installation you will find a description on every supported platform 
+and then the guides for a range of use cases, sorted by difficulty.
+
+The text files will be updated more frequently than the videos,
+ should you come across discrepancies between the videos and what you encounter in Radii.
 
 
-The setups for each device can take between 5 - 15 min each. 
+The setups for each device take between 5 - 15 min each. 
+
+Radii consists of 3 parts:
 
 **Viewer:**
-Models can be explored via a Radii Viewer.
+Models can be explored via the Radii Viewers, that have to be installed as stand alone programs.
 Viewers are available for a number of different operating systems such as Windows/Mac, IPhone/Android and Oculus VR. 
 
 
 **Radii Grasshopper Plugin:** 
-The plugin enables you to publish(send) and subscribe(receive) 3D models and other geometry. It is runnin in `Rhino 3D <https://www.rhino3d.com/>`_.
+The plugin enables you to publish(send) and subscribe(receive) 3D models and other geometry. It is running inside of `Rhino 3D <https://www.rhino3d.com/>`_.
 
 
 **Radii Account** 

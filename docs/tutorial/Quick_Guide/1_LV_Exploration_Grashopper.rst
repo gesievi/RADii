@@ -6,70 +6,23 @@
 
 
 ************************************
-Viewer Basics
+Tutorial: Grashopper Basics
 ************************************
 
 Length: ca. 10 min
 
 This tutorial, is based on the Setup_ guide.
 
-It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin.
-Afterward you will be able to explore a model with Radii and you publish(upload) geometry.
-
-
-======================
-Radii Viewer
-======================
+It will introduce the basics of the Radii Grashopper plugin.
+With it you will be able to publish(upload) geometry on a Radii channel.
 
 |RadiiLogo|
 
 
-**Keyboard Assignments**
-
-=========== ===================================
-Movement    W,A,S,D
-Jump        Space
-Shift       Sprint
-Q Fly       Up
-E Fly       Down
-Right Mouse Main Menus (open,close)
-Left Mouse  `Operation Menu`_ 
-=========== ===================================
-
-
-**1. Open the** `Radii Viewer`_ 
-
-**2. Open the Main Menu**
-
-Right-click to open & close the `Connect Menu`_.
-
-.. image:: /tutorial/Viewer_PC/images/02_Menue.png
-
-
-**3. Connect to channel**
-
-.. image::  /tutorial/Viewer_PC/images/02_Menu_zuschnitt.png
-
-Connect to the channel as described in section 3 of the `Connect Menu`_ by writing the Channelname, the Nickname and pressing connect.
-
-
-**4. Congratulation** 
-
-You are now connected to a channel and can explore the model.
-
-.. ---------------------------------------------------------
-
-
-
-
-
-====================
-Radii grashopper 
-====================
-
 This is a short introduction into publishing(uploading) your files to RADii.
-We advice to make a Radii account at radii.info if you want to have your personal space and more storrage.
-More Detail can be found at RadiiGrashopper_ documentation
+We advice to make a Radii account at radii.info if you want to have your personal space and more storage.
+More Detail can be found at RadiiGrashopper_ documentation.
+Note that you need a running viewer on the same channel to receive the send content.
 
 *The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*
 
@@ -80,7 +33,7 @@ More Detail can be found at RadiiGrashopper_ documentation
 
 Every RadiiGrashopper_ file starts with the Connect_ |Connect| component.
 To it, you connect the PublishMaterial_ |PublishMaterial_icon| and the PublishGeometry_ |PublishGeometry_icon|, components.
-Add a geometry pipeline or any geometry to the later as shown in the picture.
+Add a geometry pipeline or other geometry to the later as shown in the picture.
 
 
 .. |Connect| image:: /tutorial/Radii_Icons/ConnectParam.png
@@ -92,7 +45,7 @@ Add a geometry pipeline or any geometry to the later as shown in the picture.
 
 Log in with your Radii.info account and password you have created during the setup_ on Radii.info as shown.
 left click on "load account" to log in.
-Your private domain will show up under - CHANNEL - and possibly others if you are part of a class or group, we have blanked out our group name in the example image.
+Your private domain will show up under the section - CHANNEL - and possibly others if you are part of a class or group.
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/02_Quick_Guide_Publisher.png
 
