@@ -1,5 +1,5 @@
 **********************************
-Presentation & Story tutorial
+Tutorial: Advanced Presentation
 **********************************
 
 A presentation in Radii is different from showing plans, the participants can
