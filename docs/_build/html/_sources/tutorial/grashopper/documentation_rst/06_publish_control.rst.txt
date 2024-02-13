@@ -84,8 +84,7 @@ Duration    of the scenario
 
 - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
   - In this case turn off the grasshopper autosave setting as it will slow you down  
-- :code:`Best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the
-download via the publishControl --> File settings
+- :code:`Best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the download via the publishControl --> File settings
 
 
 

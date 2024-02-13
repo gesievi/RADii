@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>3. Tutorial: Collaborative working &#8212; Radii Documentation 0.37 documentation</title>
+    <title>5. Tutorial: Collaborative working &#8212; Radii Documentation 0.37 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=4f649999" />
     <link rel="stylesheet" type="text/css" href="../../_static/alabaster.css?v=8691e056" />
     <script src="../../_static/documentation_options.js?v=ae02a30b"></script>
@@ -13,8 +13,8 @@
     <script src="../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="4. Project documentation" href="5_Documentation.html" />
-    <link rel="prev" title="2. Tutorial: Advanced Presentation" href="3_LV%20Presentation_Storry.html" />
+    <link rel="next" title="6. Tutorial: Project documentation" href="5_Documentation.html" />
+    <link rel="prev" title="4. Tutorial: Advanced Presentation" href="3_LV%20Presentation_Storry.html" />
    
   <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
   
@@ -32,19 +32,44 @@
           <div class="body" role="main">
             
   <section id="tutorial-collaborative-working">
-<h1><span class="section-number">3. </span>Tutorial: Collaborative working<a class="headerlink" href="#tutorial-collaborative-working" title="Link to this heading">¶</a></h1>
-<section id="work-in-progress">
-<h2><span class="section-number">3.1. </span>———-Work in Progress————–<a class="headerlink" href="#work-in-progress" title="Link to this heading">¶</a></h2>
-<p class="linemarker linemarker-9">Usually Radii works in one direction one or many send content to one or a number of viewers, without any feedback.
-The collaborative components under the Subscribe section in Rhino can change this and feed back into the Rhino session.
-This tutorial will explain possible uses and examples for using them.</p>
-<p class="linemarker linemarker-13">Content could be:</p>
+<h1><span class="section-number">5. </span>Tutorial: Collaborative working<a class="headerlink" href="#tutorial-collaborative-working" title="Link to this heading">¶</a></h1>
+<p>Radii can be used in a linear way, sending commands and geometry from Grashopper to the viewers.</p>
+<p>The components in the Subscribe section in Rhino Grashopper Radii can add the reverse diction to the workflow.
+With them we can send data from the viewers through the server into Grashopper.
+Because of the amount of possibilities with these components, we will only give a few examples that we found useful.</p>
+<ol class="arabic simple">
+<li><p><strong>Working and assembling geometry together in the viewers on a channel:</strong></p></li>
+</ol>
+<blockquote>
+<div><p>Geometry is first send from Grashopper via the <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a> to the viewers, it is important that the shared option is selected in the component
+It can then be modified in collaboration and reimported via the <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html">Subscribe Geometry</a> component.
+After baking or internalizing it can be permanently stored.</p>
+<p>Components needed:</p>
 <ul class="simple">
-<li><p class="linemarker linemarker-15">easier animation with subscribe to user</p></li>
-<li><p class="linemarker linemarker-16">users play with geometry collectively and this is then saved as a rhino session</p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html">PublishMaterial</a></p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html">Subscribe Geometry</a></p></li>
 </ul>
-<p class="linemarker linemarker-19">More Coming soon</p>
-</section>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p><strong>Recording the viewers movement and using it to create an animation path.</strong></p>
+<blockquote>
+<div><p>Components needed:</p>
+</div></blockquote>
+</li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/18_SubscribeUser.html">Subscribe User</a></p></li>
+<li><p>Data Recorder</p></li>
+<li><p>Cull Duplicates</p></li>
+<li><p>List Item</p></li>
+<li><p><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html">Publish Animation</a></p></li>
+</ul>
+</div></blockquote>
+<img alt="../../_images/Recording_Path_viewer_planes_icons_rhino.png" src="../../_images/Recording_Path_viewer_planes_icons_rhino.png" />
 </section>
 
 
@@ -76,16 +101,16 @@ This tutorial will explain possible uses and examples for using them.</p>
 <li class="toctree-l1"><a class="reference internal" href="../Viewer_PC/documentation_rst/0_Viewer.html">Radii Viewer</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../grashopper/documentation_rst/01_Components_Overview.html">Radii Grashopper</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="Quick_Guides.html">Guides</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="Setup/2_install_PC.html">Setup Viewer PC/Mac</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Setup/3_install_grasshopper.html">Setup Grashopper Plugin</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Setup/4_install_occulus.html">Setup Oculus</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Setup/5_install_Technical_Prereq.html">Technical Prerequisites</a></li>
-<li class="toctree-l2"><a class="reference internal" href="1_LV_Exploration_Grashopper.html">Tutorial: Grashopper Basics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="1_LV_Exploration_Viewer.html">Tutorial: Viewer Basics</a></li>
-<li class="toctree-l2"><a class="reference internal" href="2_LV_Simple_Review.html">1. Tutorial: Simple Presentation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="3_LV%20Presentation_Storry.html">2. Tutorial: Advanced Presentation</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">3. Tutorial: Collaborative working</a></li>
-<li class="toctree-l2"><a class="reference internal" href="5_Documentation.html">4. Project documentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Setup/2_install_PC.html">1. Setup Viewer PC/Mac</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Setup/3_install_grasshopper.html">2. Setup Grashopper Plugin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Setup/4_install_occulus.html">3. Setup Oculus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Setup/5_install_Technical_Prereq.html">4. Technical Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1_LV_Exploration_Grashopper.html">1. Tutorial: Grashopper Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="1_LV_Exploration_Viewer.html">2. Tutorial: Viewer Basics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2_LV_Simple_Review.html">3. Tutorial: Simple Presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3_LV%20Presentation_Storry.html">4. Tutorial: Advanced Presentation</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">5. Tutorial: Collaborative working</a></li>
+<li class="toctree-l2"><a class="reference internal" href="5_Documentation.html">6. Tutorial: Project documentation</a></li>
 </ul>
 </li>
 </ul>
@@ -95,8 +120,8 @@ This tutorial will explain possible uses and examples for using them.</p>
 <ul>
   <li><a href="../../index.html">Documentation overview</a><ul>
   <li><a href="Quick_Guides.html">Guides</a><ul>
-      <li>Previous: <a href="3_LV%20Presentation_Storry.html" title="previous chapter"><span class="section-number">2. </span>Tutorial: Advanced Presentation</a></li>
-      <li>Next: <a href="5_Documentation.html" title="next chapter"><span class="section-number">4. </span>Project documentation</a></li>
+      <li>Previous: <a href="3_LV%20Presentation_Storry.html" title="previous chapter"><span class="section-number">4. </span>Tutorial: Advanced Presentation</a></li>
+      <li>Next: <a href="5_Documentation.html" title="next chapter"><span class="section-number">6. </span>Tutorial: Project documentation</a></li>
   </ul></li>
   </ul></li>
 </ul>
