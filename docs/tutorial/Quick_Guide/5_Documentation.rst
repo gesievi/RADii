@@ -2,32 +2,38 @@
 Tutorial: Project documentation
 *******************************
 
-------------------------------------------
-----------Work in Progress--------------
-------------------------------------------
+Radii projects can be documented in a number of ways. This tutorial will show you how to document a presentation by saving or recording it. 
+Saving geometry and controls separately has proven a useful practice, they can be loaded into the viewer speratily later. Making the individual files smaller and quicker to save.
 
-How a Radii project can be documented for future use:
+---------------------
+Save a .radii file
+---------------------
 
---------
-Saving:
---------
+.. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard15.png
+    :alt: Radii data save options 
 
-**From Grasshopper:**
+Radii file diagram 
 
-- with the save component
-  - save everything as a radii file to be used locally
+**From Rhino Grasshopper:**
+
+- with the `Save Content`_ component
+  - save everything that is connected as a radii file to be used locally
   - save everything to the cloud
-- save the control's in a grashopper component
+
 
 **Viewer:**
 
-Everything that was received by the Viewer can be saved locally through the remote content menu.
-It can then be opened again at a later time. 
-With this method you could for example save a presentation at its end to explore it further at a later moment.
+Everything that was received by the Viewer during a session can be saved locally through the `Remote Content Menu`_, save menu.
+It can then be opened through the import option in the same menu. 
+With this method you could for example save a presentation at its end to explore it further at a later time.
 
---------------------------------------------
-**Screenrecording of a presentation**
---------------------------------------------
 
+
+--------------------
+Screen record video
+--------------------
+This method might need a stronger or separat pc to work smoothly. 
+An open source screenrecoder that we found useful and relatively easy to use is OBS. 
+It can be found under https://obsproject.com/
 
 
