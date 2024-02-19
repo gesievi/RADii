@@ -14,7 +14,7 @@ Users Menu
      - Content - toggle content
      - Clear - delete content from viewer
     
-   - Editor = data that was sent from RhinoGrashopper
+   - Editor = data that was sent from RhinoGrasshopper
     
      - Follow - follow the rhino view of the user
      - User toggle avatar

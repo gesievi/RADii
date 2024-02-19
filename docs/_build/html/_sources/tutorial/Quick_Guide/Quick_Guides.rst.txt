@@ -35,8 +35,7 @@ For your own domain, more storage, advanced management and functionalities
 
 .. toctree::
     :titlesonly:
-    :numbered:
-    
+        
     Setup/2_install_PC
     Setup/3_install_grasshopper
     Setup/4_install_occulus

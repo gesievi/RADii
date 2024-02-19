@@ -45,14 +45,14 @@ Note: If you are part of a group or organization please use the respective email
 
 **About channels and subchannels and subsubsubchannels**
 The way to write channel addresses in the viewer is channelname.subchannel.sub.sub and can be endlessly extended. 
-In Radii grashopper the same address is reached by logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
+In Radii grasshopper the same address is reached by logging in, choosing "channelname > My Domain" and then under "-subchannel-" 
 typing subchannel.sub.sub 
 
 .. image:: /tutorial/Quick_Guide//1_LV_Explo_Images/Grashopper/03_Quick_Guide_Publisher_zugeschnitten.png
 
 
 Example:
-The channelname "sun" in grashopper:
+The channelname "sun" in grasshopper:
 -channel-
 Sun > My Domain
 

@@ -9,7 +9,7 @@ Technical Prerequisites
   - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
 
 
-The Rhino Grashopper plugin is generally very efficient and can run on older machines. 
+The Rhino Grasshopper plugin is generally very efficient and can run on older machines. 
 The Radii Viewer for PC as a live renderer need more computing power. It can be necessary to run Rhino on one machine and the viewer on another for
 a seamless use.
 The deciding technical factor for the viewer is the strength of the used graphic car
@@ -17,7 +17,7 @@ The deciding technical factor for the viewer is the strength of the used graphic
 During our tests, on a range of devices, we have observed that:
 
 - simple and small models can be viewed and streamed in parallel on a medium strong laptop 
-- for bigger models we advice for a strong graphic card and at least 16 GB of RAM for the viewer and potentially the use of a second device for publishing with Rhino Grashopper
+- for bigger models we advice for a strong graphic card and at least 16 GB of RAM for the viewer and potentially the use of a second device for publishing with Rhino Grasshopper
 
 Server Storage:
 
@@ -36,7 +36,7 @@ _________________________________________________
 
 *Preparation and time:* 1 Day for the publisher, 20 min. for the group 
 
-The publisher: understand the basic of how to stream geometry with Radii Grashopper and the basics on operating the viewer.
+The publisher: understand the basic of how to stream geometry with Radii Grasshopper and the basics on operating the viewer.
 The observers: Install the viewer, log into the server and navigate
 
 *Tech:*
@@ -52,8 +52,8 @@ The observers:  min. a laptop of medium strength for running the viewer
 We teach Radii in 3 seatings throughout the semester in a total of 5 hours, with constant usage in between.
 This enables the student to test models in Radii as well as present them at the end.
 
-The first 1,5 hours explain the basics on how to use the viewer and the grashopper plugin
-For the viewer this includes how to connect to a channel and navigate in a model. In grashopper
+The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
+For the viewer this includes how to connect to a channel and navigate in a model. In grasshopper
 is is about the most basic workflow and most important publishing components.
 In the second sitting we introduce the saving to the cloud and locally in radii files, how to animate, define views and basics of publish control. 
 The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.

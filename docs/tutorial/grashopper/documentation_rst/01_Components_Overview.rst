@@ -1,5 +1,5 @@
 ********************
-Radii Grashopper
+Radii Grasshopper
 ********************
 
 .. image:: ../images/all_components.png
@@ -11,10 +11,10 @@ There are 6 types of components:
 | **Params** relay the described datatype 
 | **Publishing** components can send data to a channel and its connected receivers.
 | **Save** enables you to save locally to .radii files or on a channel in the cloud.
-| **Subscribe** imports data from from a connected channel to your local Rhino Grashopper session. The data can then be further processed or saved.
+| **Subscribe** imports data from from a connected channel to your local Rhino Grasshopper session. The data can then be further processed or saved.
 | **Tools** to modify point clouds 
 
-Grashopper Components
+Grasshopper Components
 _____________________________
 
 .. the naming in toctree is case sensitive

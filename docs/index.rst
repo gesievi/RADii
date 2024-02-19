@@ -30,7 +30,7 @@ Download Links
 
 Grashopper Plugin:
 
-- `Radii Grashopper Win/Mac`_
+- `Radii Grasshopper Win/Mac`_
 - `Radii Capture Win/Mac`_
 
 PC Viewers

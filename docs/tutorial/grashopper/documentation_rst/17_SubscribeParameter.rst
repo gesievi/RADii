@@ -5,7 +5,7 @@ SubscribeParameter
 .. image:: ../images/Subscribe/Sub_parameter.png
     :align: Left
 
-Grashopper component
+Grasshopper component
 
 .. image:: ../images/Subscribe/Sub_parameter22.png
 

@@ -17,7 +17,7 @@ Length: ca. 20 min
 
 This tutorial, is based on the Setup_ guide.
 
-It will introduce the basics of the Radii Viewer and the Radii Grashopper plugin.
+It will introduce the basics of the Radii Viewer and the Radii Grasshopper plugin.
 Afterward you will be able to explore a model with Radii and you send(upload) geometry.
 
 
@@ -71,21 +71,21 @@ You are now connected to a channel and can use the Radii viewer.
 
 
 ====================
-Radii grashopper 
+Radii Grasshopper 
 ====================
 
 This is a quick introduction into publishing/uploading your files to RADii.
 While it is possible to publish in the public channel without an account on radii.info we advice to make one if you want to have your personal space.
-You can do substantially more with the tool as you will find in more detail on the `Radii Viewer`_ and RadiiGrashopper_ documentation
+You can do substantially more with the tool as you will find in more detail on the `Radii Viewer`_ and RadiiGrasshopper_ documentation
 
 *The following tool will Publish/Upload all the Geometry in your rhino file. Use it with care and not with big models.*
 
 
 **1. How to build a basic file to publish**
 
-.. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/01_Quick_Guide_Publisher.png
+.. image:: ../Quick_Guide/1_LV_Explo_Images/Grasshopper/01_Quick_Guide_Publisher.png
 
-Every RadiiGrashopper_ file starts with the Connect_ component it always comes with a boolean (True/False) and the actual 
+Every RadiiGrasshopper_ file starts with the Connect_ component it always comes with a boolean (True/False) and the actual 
 component. Every component that is intended for publication(sending) will have to be connected to this first one via the connect in- and Output.
 
 Second comes the PublishGeometry_ component that is connected to the Connect_. It needs a geometry input of any kind,

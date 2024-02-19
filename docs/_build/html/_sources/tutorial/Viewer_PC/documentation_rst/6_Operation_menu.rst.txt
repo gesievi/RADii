@@ -2,7 +2,7 @@
 Operation Menu
 ****************
 
-.. image:: ../images/Menu_action_detail_number.png
+.. image:: ../images/Menu_action_detail.png
 
 Open the Operation menu with a left click, close it with a right click
 

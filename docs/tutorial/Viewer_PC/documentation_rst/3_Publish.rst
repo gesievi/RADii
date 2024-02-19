@@ -8,7 +8,7 @@ Publish Menu
 
 .. image:: ../images/Menu_publish.png
 
-8. **Parameters** - send parameters back to grashopper
+8. **Parameters** - send parameters back to grasshopper
 
    - Add by typing a name and click:
        - Boolean (on/off)

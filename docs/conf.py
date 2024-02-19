@@ -85,11 +85,11 @@ html_static_path = ['_Font']
 rst_prolog = """
 
 .. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
-.. _RadiiGrashopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
+.. _RadiiGrasshopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
 .. _Setup: https://gesievi.github.io/Radii_doc/tutorial/Setup/install_setup.html
 
 .. _radii.info: https://radii.info/
-.. _Radii Grashopper Win/Mac: https://radii.info/download/plugin/RADii.zip
+.. _Radii Grasshopper Win/Mac: https://radii.info/download/plugin/RADii.zip
 .. _Radii Capture Win/Mac: https://radii.info/download/plugin/RADiiCapture.zip
 .. _Windows 10+: https://radii.info/download/standard/RADii%20Viewer%20Setup.zip
 .. _macOS X: https://apps.apple.com/app/id1505325031
@@ -121,7 +121,7 @@ rst_prolog = """
 
 
 .. _Basics & Exploration tutorial: https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_short.html
-.. _Tutorial Grashopper Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+.. _Tutorial Grasshopper Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Tutorial Viewer Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 
 

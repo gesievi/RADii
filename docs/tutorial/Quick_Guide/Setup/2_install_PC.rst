@@ -11,7 +11,9 @@ _____________________
 3. **Install** the file
 4. **Start** RADii Viewer
 
+.. image:: ../Setup/Images/Menu_connect_blank.png
+    
 
-.. image:: .../Viewer_PC/images/Menu_connect_blank.png
+    
 
 **Congratulations** you have installed Radii. On how to use Radii consult the Quick Guide and the Viewer documentation
