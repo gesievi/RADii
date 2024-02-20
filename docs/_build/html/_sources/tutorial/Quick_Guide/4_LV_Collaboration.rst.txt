@@ -14,6 +14,9 @@ Because of the amount of possibilities with these components, we will only give 
   It can then be modified in collaboration and reimported via the `Subscribe Geometry`_ component.
   After baking or internalizing it can be permanently stored.
 
+.. image:: ../Quick_Guide/4_LV_Subscribe_Images/Subscribe_Geometry_Grasshopper.png
+
+
   Components needed:
   
   - `Connect`_
@@ -24,7 +27,7 @@ Because of the amount of possibilities with these components, we will only give 
 
 
 
-2. **Recording the viewers movement and using it to create an animation path.**
+1. **Recording the viewers movement and using it to create an animation path.**
 
     Components needed:
 

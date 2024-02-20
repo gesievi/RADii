@@ -15,13 +15,15 @@ Radii Documentation
 
 RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
-.. image:: /tutorial/Radii_diagramms/06_Load_File.jpg
+.. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
 
 
 RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
-More information, updates and the program can be found at `radii.info <https://radii.info/>`_.
+This documentation is part of the collaboration.
+More information, updates and the program Radii can be found at `radii.info <https://radii.info/>`_.
 Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
-This project is still under development, should you find bugs or out of date documentation please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+Radii is still under development, should you find bugs please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
+For errors or inconsistencies in the documentation, please notify us on `Github Radii Documentation <
 
 
 

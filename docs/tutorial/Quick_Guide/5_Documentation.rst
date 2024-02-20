@@ -23,6 +23,9 @@ Radii file diagram
 
 **Viewer:**
 
+.. image:: /tutorial/Quick_Guide/5_LV_Documentation_images/Radii_save.png
+  :align: left
+
 Everything that was received by the Viewer during a session can be saved locally through the `Remote Content Menu`_, save menu.
 It can then be opened through the import option in the same menu. 
 With this method you could for example save a presentation at its end to explore it further at a later time.
@@ -32,8 +35,8 @@ With this method you could for example save a presentation at its end to explore
 --------------------
 Screen record video
 --------------------
-This method might need a stronger or separat pc to work smoothly. 
-An open source screenrecoder that we found useful and relatively easy to use is OBS. 
-It can be found under https://obsproject.com/
+
+While you are presenting recording a video of the presentation, is the easiest way to share your work without extra technology.  
+An open source screenrecoder that we found useful and relatively easy to use is OBS, it can be found under https://obsproject.com/
 
 
