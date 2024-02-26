@@ -41,28 +41,35 @@ Because of the amount of possibilities with these components, we will only give 
 <li><p class="linemarker linemarker-11"><strong>Working and assembling geometry together in the viewers on a channel:</strong></p></li>
 </ol>
 <blockquote>
-<div><p class="linemarker linemarker-13">Geometry is first send from Grasshopper via the <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a> to the viewers, it is important that the shared option is selected in the component
-It can then be modified in collaboration and reimported via the <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html">Subscribe Geometry</a> component.
-After baking or internalizing it can be permanently stored.</p>
-</div></blockquote>
-<ol class="arabic">
-<li><p class="linemarker linemarker-30"><strong>Recording the viewers movement and using it to create an animation path.</strong></p>
-<blockquote>
-<div><p class="linemarker linemarker-32">Components needed:</p>
-</div></blockquote>
-</li>
-</ol>
-<blockquote>
-<div><ul class="simple">
-<li><p class="linemarker linemarker-34"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
-<li><p class="linemarker linemarker-35"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/18_SubscribeUser.html">Subscribe User</a></p></li>
-<li><p class="linemarker linemarker-36">Data Recorder</p></li>
-<li><p class="linemarker linemarker-37">Cull Duplicates</p></li>
-<li><p class="linemarker linemarker-38">List Item</p></li>
-<li><p class="linemarker linemarker-39"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html">Publish Animation</a></p></li>
+<div><p class="linemarker linemarker-13">Geometry is first send from Grasshopper with <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a> to the viewers, it is important that the shared option is selected in the component.
+The geometry can then be modified in the viewer in collaboration and fed back into Rhino via the <a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html">Subscribe Geometry</a> component.
+After baking or internalizing the fed back geometry it can be permanently stored.</p>
+<img alt="../../_images/Subscribe_Geometry_Grasshopper_viewer.png" src="../../_images/Subscribe_Geometry_Grasshopper_viewer.png" />
+<img alt="../../_images/Subscribe_Geometry_Grasshopper.png" src="../../_images/Subscribe_Geometry_Grasshopper.png" />
+<p class="linemarker linemarker-21">Components needed:</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-23"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
+<li><p class="linemarker linemarker-24"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html">PublishGeometry</a></p></li>
+<li><p class="linemarker linemarker-25"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html">PublishMaterial</a></p></li>
+<li><p class="linemarker linemarker-26"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html">Subscribe Geometry</a></p></li>
 </ul>
 </div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p class="linemarker linemarker-31"><strong>Recording the viewers movement and using it to create an animation path.</strong></p></li>
+</ol>
+<blockquote>
+<div><p class="linemarker linemarker-33">It can be quiet difficult to create a smooth animation path with Rhino, this can be done by recording the movement of the viewer and using it to create an animation path as shown in the example below.</p>
 <img alt="../../_images/Recording_Path_viewer_planes_icons_rhino.png" src="../../_images/Recording_Path_viewer_planes_icons_rhino.png" />
+<p class="linemarker linemarker-37">Components needed:</p>
+<ul class="simple">
+<li><p class="linemarker linemarker-39"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a></p></li>
+<li><p class="linemarker linemarker-40"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/18_SubscribeUser.html">Subscribe User</a></p></li>
+<li><p class="linemarker linemarker-41">Data Recorder</p></li>
+<li><p class="linemarker linemarker-42">Cull Duplicates</p></li>
+<li><p class="linemarker linemarker-43">List Item</p></li>
+<li><p class="linemarker linemarker-44"><a class="reference external" href="https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html">Publish Animation</a></p></li>
+</ul>
+</div></blockquote>
 </section>
 
 

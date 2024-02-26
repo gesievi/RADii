@@ -10,15 +10,16 @@ Because of the amount of possibilities with these components, we will only give 
 
 1. **Working and assembling geometry together in the viewers on a channel:** 
 
-  Geometry is first send from Grasshopper via the PublishGeometry_ to the viewers, it is important that the shared option is selected in the component
-  It can then be modified in collaboration and reimported via the `Subscribe Geometry`_ component.
-  After baking or internalizing it can be permanently stored.
+  Geometry is first send from Grasshopper with PublishGeometry_ to the viewers, it is important that the shared option is selected in the component.
+  The geometry can then be modified in the viewer in collaboration and fed back into Rhino via the `Subscribe Geometry`_ component.
+  After baking or internalizing the fed back geometry it can be permanently stored.
 
-.. image:: ../Quick_Guide/4_LV_Subscribe_Images/Subscribe_Geometry_Grasshopper.png
+  .. image:: ../Quick_Guide/4_LV_Subscribe_Images/Subscribe_Geometry_Grasshopper_viewer.png
 
+  .. image:: ../Quick_Guide/4_LV_Subscribe_Images/Subscribe_Geometry_Grasshopper.png
 
   Components needed:
-  
+
   - `Connect`_
   - PublishGeometry_
   - PublishMaterial_
@@ -27,9 +28,13 @@ Because of the amount of possibilities with these components, we will only give 
 
 
 
-1. **Recording the viewers movement and using it to create an animation path.**
+2. **Recording the viewers movement and using it to create an animation path.**
+  
+  It can be quiet difficult to create a smooth animation path with Rhino, this can be done by recording the movement of the viewer and using it to create an animation path as shown in the example below.
 
-    Components needed:
+  .. image:: ../Quick_Guide/4_LV_Subscribe_Images/Recording_Path_viewer_planes_icons_rhino.png
+  
+  Components needed:
 
   - `Connect`_
   - `Subscribe User`_
@@ -38,7 +43,5 @@ Because of the amount of possibilities with these components, we will only give 
   - List Item
   - `Publish Animation`_
 
-
-.. image:: ../Quick_Guide/4_LV_Subscribe_Images/Recording_Path_viewer_planes_icons_rhino.png
    
 

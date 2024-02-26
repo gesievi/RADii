@@ -16,15 +16,17 @@ Radii file diagram
 
 **From Rhino Grasshopper:**
 
-- with the `Save Content`_ component
+- with the `Save Content`_ component: 
+
   - save everything that is connected as a radii file to be used locally
   - save everything to the cloud
 
 
-**Viewer:**
+**From the Viewer:**
 
 .. image:: /tutorial/Quick_Guide/5_LV_Documentation_images/Radii_save.png
   :align: left
+  :scale: 80%
 
 Everything that was received by the Viewer during a session can be saved locally through the `Remote Content Menu`_, save menu.
 It can then be opened through the import option in the same menu. 
