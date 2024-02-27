@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 
-.. image:: /tutorial/Radii_Icons/Radii_logo.png
+.. image:: tutorial/Radii_Icons/Radii_logo.png
 
 **************************
 Radii Documentation
@@ -13,17 +13,32 @@ Radii Documentation
 `RADii <https://radii.info/>`_ a Cloud platform where you can publish (upload) your
 3D Models, share, explore and collaborate on them. 
 
-RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers for different devices (for PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
+RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers that run on different devices ( PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
-.. image:: /tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
+**The Viewer** 
 
+.. image:: tutorial/Viewer_PC/images/01_Start_image.png
+   :alt: The empty Radii viewer after starting
+
+Empty Radii Viewer
+
+.. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
+   :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
+
+Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan    
+
+**How Radii works:**
+
+.. image:: tutorial/Radii_diagramms/Daten_Diagramme_v2/Artboard14.png
+
+This diagram shows all the ways Radii grashopper and the viewers can exchange data (geometry, materials, textures, etc.)
 
 RADii is being developed by Thomas Lee since 2020, in 2022 he started a collaboration with Gramazio & Kohler Research at ETHZ for further development of the program in the context of the Immersive Design Studio.
 This documentation is part of the collaboration.
 More information, updates and the program Radii can be found at `radii.info <https://radii.info/>`_.
 Videos about the current development as well as new features are available on the `Arctica Youtube Page <https://www.youtube.com/channel/UCfOGfaqPczXAGTpFDPm8XsA>`_
 Radii is still under development, should you find bugs please notify us on `Github <https://github.com/Archtica/RADii/issues/>`_
-For errors or inconsistencies in the documentation, please notify us on `Github Radii Documentation <
+For errors or inconsistencies in the documentation, please notify us on `Github Radii Documentation Issues`_
 
 
 
