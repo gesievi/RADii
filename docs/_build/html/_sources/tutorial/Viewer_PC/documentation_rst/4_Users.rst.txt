@@ -7,6 +7,9 @@ Users Menu
 
 **Users - List of all data in the viewer**
 
+.. image:: ../images/Users_menu_detail.png
+  :align: left
+
 9. **Import / Editor / Viewer**
 
    - Import = data loaded from RADii file
@@ -26,3 +29,7 @@ Users Menu
 10.  **Data & Cameras** = toggle labels
 
     - Clear = delete all content from viewer
+
+Video tutorials:
+
+- `Toggle content <https://www.youtube.com/watch?v=HKPb65UUk2M>`_

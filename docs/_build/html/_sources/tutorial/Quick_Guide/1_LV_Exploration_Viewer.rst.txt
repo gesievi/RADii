@@ -9,14 +9,16 @@
 Tutorial: Viewer Basics
 ************************************
 
+|RadiiLogo|
+
 Length: ca. 10 min
 
-This tutorial, is based on the Setup_ guide.
+This tutorial, is based on the `PC Viewer Setup`_ and in case you have aces, to the `Oculus Viewer Setup`_ guide.
 
 It will introduce the basics of the Radii Viewer.
 Afterward you will be able to explore a 3D model with the Radii viewer.
 
-|RadiiLogo|
+
 
 
 **Keyboard Assignments**

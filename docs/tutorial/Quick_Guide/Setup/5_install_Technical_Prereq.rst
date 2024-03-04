@@ -1,29 +1,42 @@
-*********************************
-Technical Prerequisites
-*********************************
+*******************************************
+Technicals and Best Practices for teaching
+*******************************************
 
-1. PC/Mac with internet connection
-   
-  - min. 4 GB of RAM
-  - a medium 
-  - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
+**PC/Mac**
+
+  - Radii PC requirements:
+  
+    - ideally min. 4 GB of RAM but also works with 2 GB for small projects
+    - power and ram capacity can vary greatly depending on the size and detail of the 3D model.
+  - Rhino 3D license to use grashopper (only necessary for the publisher)
+
+Technicals:
+The Radii Viewer for PC as a live renderer needs more computing power than Rhino, a model that is almost to complex for a machine, will not run on it in Radii.
+For very big models it can be necessary to run Rhino on one device and the viewer on another for a seamless use.
+In these cases it is best practice to save to the cloud before a presentation and then forcing a load to the viewers through the `Publish Control`_ component.
+For 32bit system there is a limit of 2GB for each component and saves.
 
 
-The Rhino Grasshopper plugin is generally very efficient and can run on older machines. 
-The Radii Viewer for PC as a live renderer need more computing power. It can be necessary to run Rhino on one machine and the viewer on another for
-a seamless use.
-The deciding technical factor for the viewer is the strength of the used graphic car
+**Oculus Rift**
 
-During our tests, on a range of devices, we have observed that:
+  Oculus 2 
+  - we found a performance limit of 100 000 Points for Pointclouds
 
-- simple and small models can be viewed and streamed in parallel on a medium strong laptop 
-- for bigger models we advice for a strong graphic card and at least 16 GB of RAM for the viewer and potentially the use of a second device for publishing with Rhino Grasshopper
+Best practice 
+  
+  - in the scale of our design studio we found that smaller models such as 1:1 mockups in the path through mode worked best for the hardware. 
+  - The Oculus 2 is a standalone device and does not need a PC to run, but it is necessary to have a Facebook account to use it.  
 
-Server Storage:
+**Server Storage and channels**
 
-By creating an account you get a limited amount of server space that you can use. If your models 
-are bigger you need to apply for more. 
-As member of an affiliated organization your will automatically recognized if you register with your organizations email address.   
+By registering at `radii.info`_ you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at contact@radii.info 
+
+Storage for:
+
+  - unregistered users: X GB
+  - registered users: x GB
+  - organizations: to be defined with Radii contact at contact@radii.info
+
 
 
 
@@ -72,11 +85,15 @@ The third class goes into detail about the scenario manager that is part of publ
   - Phones or Ipads for augmented reality usage
   - Open space to walk around in VR/Ar
 
+**VR Arena**
+
+For collaborative use of VR, it is possible to set up a VR arena with multiple Oculus devices. We have made good experiences with a space of 9x9m for 14 Students and 7 Oculus devices.
+
 
 **Lv 3. Interactive collaborative work**
 
 
-**TO BE ADDED**
+Oculus 
 
 
 

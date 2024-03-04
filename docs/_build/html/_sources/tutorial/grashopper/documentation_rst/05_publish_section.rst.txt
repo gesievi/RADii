@@ -5,6 +5,11 @@ PublishSection
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %
 
+Video tutorials:
+
+- `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_
+- `Publish Section building scale <https://www.youtube.com/watch?v=3mJXLDXxK8o>`_
+
 **Input**
 
 ==========  ======================================  ==============

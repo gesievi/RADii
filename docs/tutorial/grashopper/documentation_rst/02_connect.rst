@@ -15,6 +15,8 @@ Point to       The rhino view is sending a pointer    Boolean
 Follow         Everyone follows the rhino view        Boolean
 ========    ====================================== ================
 
+    `Follow video Demo <https://www.youtube.com/watch?v=h-5thZiZg1Q>`_
+
 **Output**
 
 ===========  ================================================== ================
@@ -62,5 +64,6 @@ hs23.g1
 In the Radii viewer:
 -channel-
 sun.hs23.g1 
+
 
 

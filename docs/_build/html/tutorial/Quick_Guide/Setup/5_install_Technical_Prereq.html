@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Technical Prerequisites &#8212; Radii Documentation 0.37 documentation</title>
+    <title>Technicals and Best Practices for teaching &#8212; Radii Documentation 0.37 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
     <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8691e056" />
     <script src="../../../_static/documentation_options.js?v=ae02a30b"></script>
@@ -31,31 +31,47 @@
 
           <div class="body" role="main">
             
-  <section id="technical-prerequisites">
-<h1>Technical Prerequisites<a class="headerlink" href="#technical-prerequisites" title="Link to this heading">¶</a></h1>
-<ol class="arabic simple">
-<li><p>PC/Mac with internet connection</p></li>
-</ol>
+  <section id="technicals-and-best-practices-for-teaching">
+<h1>Technicals and Best Practices for teaching<a class="headerlink" href="#technicals-and-best-practices-for-teaching" title="Link to this heading">¶</a></h1>
+<p><strong>PC/Mac</strong></p>
 <blockquote>
 <div><ul class="simple">
-<li><p>min. 4 GB of RAM</p></li>
-<li><p>a medium</p></li>
+<li><p>Radii PC requirements:</p>
+<ul>
+<li><p>ideally min. 4 GB of RAM but also works with 2 GB for small projects</p></li>
 <li><p>power and ram capacity can vary greatly depending on the size and detail of the 3D model.</p></li>
 </ul>
-</div></blockquote>
-<p>The Rhino Grasshopper plugin is generally very efficient and can run on older machines.
-The Radii Viewer for PC as a live renderer need more computing power. It can be necessary to run Rhino on one machine and the viewer on another for
-a seamless use.
-The deciding technical factor for the viewer is the strength of the used graphic car</p>
-<p>During our tests, on a range of devices, we have observed that:</p>
-<ul class="simple">
-<li><p>simple and small models can be viewed and streamed in parallel on a medium strong laptop</p></li>
-<li><p>for bigger models we advice for a strong graphic card and at least 16 GB of RAM for the viewer and potentially the use of a second device for publishing with Rhino Grasshopper</p></li>
+</li>
+<li><p>Rhino 3D license to use grashopper (only necessary for the publisher)</p></li>
 </ul>
-<p>Server Storage:</p>
-<p>By creating an account you get a limited amount of server space that you can use. If your models
-are bigger you need to apply for more.
-As member of an affiliated organization your will automatically recognized if you register with your organizations email address.</p>
+</div></blockquote>
+<p>Technicals:
+The Radii Viewer for PC as a live renderer needs more computing power than Rhino, a model that is almost to complex for a machine, will not run on it in Radii.
+For very big models it can be necessary to run Rhino on one device and the viewer on another for a seamless use.
+In these cases it is best practice to save to the cloud before a presentation and then forcing a load to the viewers through the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html">Publish Control</a> component.
+For 32bit system there is a limit of 2GB for each component and saves.</p>
+<p><strong>Oculus Rift</strong></p>
+<blockquote>
+<div><p>Oculus 2
+- we found a performance limit of 100 000 Points for Pointclouds</p>
+</div></blockquote>
+<p>Best practice</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>in the scale of our design studio we found that smaller models such as 1:1 mockups in the path through mode worked best for the hardware.</p></li>
+<li><p>The Oculus 2 is a standalone device and does not need a PC to run, but it is necessary to have a Facebook account to use it.</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Server Storage and channels</strong></p>
+<p>By registering at <a class="reference external" href="https://radii.info/">radii.info</a> you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a></p>
+<p>Storage for:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>unregistered users: X GB</p></li>
+<li><p>registered users: x GB</p></li>
+<li><p>organizations: to be defined with Radii contact at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a></p></li>
+</ul>
+</div></blockquote>
 <section id="preparation-time-to-learn-and-infrastructure">
 <h2>Preparation, time to learn and infrastructure<a class="headerlink" href="#preparation-time-to-learn-and-infrastructure" title="Link to this heading">¶</a></h2>
 <p><strong>Lv 1. A walkthrough with a group:</strong></p>
@@ -91,8 +107,10 @@ The third class goes into detail about the scenario manager that is part of publ
 </ul>
 </li>
 </ul>
+<p><strong>VR Arena</strong></p>
+<p>For collaborative use of VR, it is possible to set up a VR arena with multiple Oculus devices. We have made good experiences with a space of 9x9m for 14 Students and 7 Oculus devices.</p>
 <p><strong>Lv 3. Interactive collaborative work</strong></p>
-<p><strong>TO BE ADDED</strong></p>
+<p>Oculus</p>
 </section>
 </section>
 
@@ -128,7 +146,7 @@ The third class goes into detail about the scenario manager that is part of publ
 <li class="toctree-l2"><a class="reference internal" href="2_install_PC.html">Setup Viewer PC/Mac</a></li>
 <li class="toctree-l2"><a class="reference internal" href="3_install_grasshopper.html">Setup Grasshopper Plugin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="4_install_occulus.html">Setup Oculus</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Technical Prerequisites</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Technicals and Best Practices for teaching</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../1_LV_Exploration_Grashopper.html">1. Tutorial: Grasshopper Basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../1_LV_Exploration_Viewer.html">2. Tutorial: Viewer Basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../2_LV_Simple_Review.html">3. Tutorial: Simple Presentation</a></li>

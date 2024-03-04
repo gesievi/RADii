@@ -11,7 +11,7 @@ Tutorial: Grasshopper Basics
 
 Length: ca. 10 min
 
-This tutorial, is based on the Setup_ guide.
+This tutorial, is based on the `Grasshopper Setup`_ guide.
 
 It will introduce the basics of the Radii Grasshopper plugin.
 With it you will be able to publish(upload) geometry on a Radii channel.
@@ -20,7 +20,7 @@ With it you will be able to publish(upload) geometry on a Radii channel.
 
 
 This is a short introduction into publishing(uploading) your files to RADii.
-We advice to make a Radii account at radii.info if you want to have your personal space and more storage.
+We advice to make a Radii account at `radii.info`_ if you want to have your personal space and more storage.
 More Detail can be found at RadiiGrasshopper_ documentation.
 Note that you need a running viewer on the same channel to receive the send content.
 
@@ -43,8 +43,7 @@ Add a geometry pipeline or other geometry to the later as shown in the picture.
 
 **2. Enter Credentials**
 
-Log in with your Radii.info account and password you have created during the setup_ on Radii.info as shown.
-left click on "load account" to log in.
+Log in with your `Radii.info`_ account and password you have created during the `Grasshopper Setup`_ and left click on "load account" to log in.
 Your private domain will show up under the section - CHANNEL - and possibly others if you are part of a class or group.
 
 .. image:: ../Quick_Guide/1_LV_Explo_Images/Grashopper/02_Quick_Guide_Publisher.png

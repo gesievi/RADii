@@ -5,6 +5,9 @@ World Menu
 
 .. image:: ../images/Menu_world.png
 
+.. image:: ../images/World_menu_detail.png
+  :align: left
+
 11.  **Camera**
 
     - Field of view - controls the field of view at the cost of some distortion
@@ -59,3 +62,7 @@ World Menu
     - Grid = toggles the default floor
     - Origin = toggles the origin point
 
+Video tutorials:
+
+- `Time animation <https://www.youtube.com/watch?v=nheVCJKet8k>`_
+- `Scaling <https://www.youtube.com/watch?v=72bPt8c2lzM>`_

@@ -87,6 +87,9 @@ rst_prolog = """
 .. _RadiiViewer: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
 .. _RadiiGrasshopper: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/01_Components_Overview.html
 .. _Setup: https://gramaziokohler.github.io/radii_docs/tutorial/Setup/install_setup.html
+.. _Grasshopper Setup: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/Setup/3_install_grasshopper.html
+.. _PC Viewer Setup: https://gramaziokohler.github.io/radii_docs/tutorial/Quick_Guide/Setup/2_install_PC.html
+.. _Oculus Viewer Setup:
 
 .. _radii.info: https://radii.info/
 .. _Radii Grasshopper Win/Mac: https://radii.info/download/plugin/RADii.zip

@@ -36,4 +36,6 @@ Animation   Duration Speed: higher number = quicker
 Animation   Behavior Play, Replay, Reverse, Return
 ==========  ==========================================
 
+**Video tutorials:**
 
+- `Object Animation example <https://www.youtube.com/watch?v=yMZXNn_Pgq4>`_

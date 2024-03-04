@@ -50,3 +50,10 @@ Gravity:    9.807 m/s² pulling on each object
 Shared:     collaborative editing of geometry in the viewer
 ==========  =====================================================
 
+**Video tutorials:**
+
+- `Collaborative content modification <https://www.youtube.com/watch?v=YuBep3x01cE>`_
+  
+  - activate the "Shared" option in the menu
+- `Collaboration  <https://www.youtube.com/watch?v=PVB9a0dsJfQ>`_
+-  
