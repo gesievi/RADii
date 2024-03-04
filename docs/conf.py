@@ -84,9 +84,9 @@ html_static_path = ['_Font']
 # Aliases with spaces are calls with `Operation Menu`_ in the specific pages
 rst_prolog = """
 
-.. _RadiiViewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
-.. _RadiiGrasshopper: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
-.. _Setup: https://gesievi.github.io/Radii_doc/tutorial/Setup/install_setup.html
+.. _RadiiViewer: https://gramaziokohler.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
+.. _RadiiGrasshopper: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/01_Components_Overview.html
+.. _Setup: https://gramaziokohler.github.io/Radii_doc/tutorial/Setup/install_setup.html
 
 .. _radii.info: https://radii.info/
 .. _Radii Grasshopper Win/Mac: https://radii.info/download/plugin/RADii.zip
@@ -95,34 +95,34 @@ rst_prolog = """
 .. _macOS X: https://apps.apple.com/app/id1505325031
 .. _VR .apk: https://radii.info/download/vr/RADii%20Viewer%20VR.zip
 
-.. _Connect: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html
-.. _PublishGeometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
-.. _PublishMaterial: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html
-.. _Publish View: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/07_publish_View.html
-.. _Publish Section: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/05_publish_section.html
-.. _Publish Animation: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html
-.. _Publish Control: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/06_publish_control.html
+.. _Connect: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/02_connect.html
+.. _PublishGeometry: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/03_publish_geometry.html
+.. _PublishMaterial: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/04_publish_material.html
+.. _Publish View: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/07_publish_View.html
+.. _Publish Section: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/05_publish_section.html
+.. _Publish Animation: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/09_publish_Animation.html
+.. _Publish Control: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/06_publish_control.html
 
-.. _Save Content: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/12_SaveContent.html
+.. _Save Content: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/12_SaveContent.html
 
-.. _Subscribe Curve: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/13_SubscribeCurve.html
-.. _Subscribe Message: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/14_SubscribeMessages.html
-.. _Subscribe Pointcloud: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/15_SubscribePointCloud.html
-.. _Subscribe Geometry: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html
-.. _Subscribe Parameter: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/17_SubscribeParameter.html
-.. _Subscribe User: https://gesievi.github.io/Radii_doc/tutorial/grashopper/documentation_rst/18_SubscribeUser.html
-
-
-.. _Radii Viewer: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
-.. _Connect Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/1_Connect.html
-.. _Remote Content Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/2_Remote_content.html
-.. _Operation Menu: https://gesievi.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
+.. _Subscribe Curve: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/13_SubscribeCurve.html
+.. _Subscribe Message: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/14_SubscribeMessages.html
+.. _Subscribe Pointcloud: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/15_SubscribePointCloud.html
+.. _Subscribe Geometry: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/16_SubscribeGeometry.html
+.. _Subscribe Parameter: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/17_SubscribeParameter.html
+.. _Subscribe User: https://gramaziokohler.github.io/Radii_doc/tutorial/grashopper/documentation_rst/18_SubscribeUser.html
 
 
+.. _Radii Viewer: https://gramaziokohler.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
+.. _Connect Menu: https://gramaziokohler.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/1_Connect.html
+.. _Remote Content Menu: https://gramaziokohler.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/2_Remote_content.html
+.. _Operation Menu: https://gramaziokohler.github.io/Radii_doc/tutorial/Viewer_PC/documentation_rst/6_Operation_menu.html
 
-.. _Basics & Exploration tutorial: https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_short.html
-.. _Tutorial Grasshopper Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
-.. _Tutorial Viewer Basics:  https://gesievi.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+
+
+.. _Basics & Exploration tutorial: https://gramaziokohler.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_short.html
+.. _Tutorial Grasshopper Basics:  https://gramaziokohler.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
+.. _Tutorial Viewer Basics:  https://gramaziokohler.github.io/Radii_doc/tutorial/Quick_Guide/1_LV_Exploration_Grashopper.html
 .. _Github Radii Documentation Issues: https://github.com/gramaziokohler/radii_docs/issues
 
 
