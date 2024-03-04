@@ -25,7 +25,7 @@ Empty Radii Viewer
 .. image:: tutorial/Viewer_PC/images/231218_cadeim_kytami_Photo_1_WM.jpg
    :alt: Autumn semester 2023, project by Cadei  Matteo & Tami  Kyan  
 
-Immersive Design Studio, Gramazio & Kohler, Autumn semester 2023 project by Cadei Matteo & Tami Kyan    
+Immersive Design Studio ETHZ, Prof. Gramazio & Kohler, Autumn semester 2023 student project by Cadei Matteo & Tami Kyan    
 
 **How Radii works:**
 
