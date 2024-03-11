@@ -54,14 +54,21 @@ Clear               Clears all content from viewers
 Set Location        Sets the world location for the sun
 Origin rotation     Rotates the model by x-degrees
 Set origin rotation Confirm rotation
-File                Displays the files from the channel that you can input below
-Get files           Connects to the channel, now the saved files appear in files
+File                Displays the files from the channel, who's name you can type in below
+Get files           Activate the channel connection when clicked, files should now be displayed at "file"
 Scenario Manager    Opens the scenario manager, you can save your scenario with all settings from above
 =================== ============================================================================================
 
-    - with files you can command the scenario manager to directly download a file from the server instead of uploading it and sending it to the viewers
 
-Scenario Manager
+**Tips**
+
+- The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
+  - In this case turn off the grasshopper autosave setting as it will slow you down  
+- To save time with heavier and bigger models: With "Files" you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.  
+
+   
+
+**Scenario Manager**
 -----------------------
 
 .. image:: ../images/Publish/Publish__controll_manager.png
@@ -85,11 +92,7 @@ Load        loading from the channel
 Duration    of the scenario
 ==========  ==============================================================================================
 
-**Tips**
 
-- The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
-  - In this case turn off the grasshopper autosave setting as it will slow you down  
-- :code:`Best practice for heavy geometry` is to upload it to the server via the cloud manager in the save component and then command the download via the publishControl --> File settings
 
 
 
