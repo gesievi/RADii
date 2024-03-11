@@ -8,20 +8,21 @@ Pointcloud
 This component is a relay that lets you organize your wires more efficiently.
 
 
-**Optional Input**
+**Input**
 
-==========  ======================================  ==============
-Name        Description                             Type
-==========  ======================================  ==============
-Connection  Link with the Connect component         Connection
-==========  ======================================  ==============
+=========== ============================================    ==============
+Name        Description                                     Type
+=========== ============================================    ==============
+Right click Link Pointcloud from Rhino Scene                Pointcloud
+Mesh        Mesh vertices will be turned into pointcloud    Mesh  
+=========== ============================================    ==============
 
 **Output**
 
 ==========  ======================================  ==============
 Name        Description                             Type
 ==========  ======================================  ==============
-Connection  Link with the Connect component         Connection
+Pointcloud  Generated or Linked Pointcloud          Pointcloud
 ==========  ======================================  ==============
 
 

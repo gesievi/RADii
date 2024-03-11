@@ -65,8 +65,8 @@ Scenario Manager    Opens the scenario manager, you can save your scenario with 
 - The saved content is stored in the component, be aware that huge amounts of geometry can make your .gh file very heavy and slow
   - In this case turn off the grasshopper autosave setting as it will slow you down  
 - To save time with heavier and bigger models: With "Files" you can direct all viewers to download a saved file from a channel, instead of live uploading and then downloading to the viewers.  
+- On mac systems the enter button for confirmation is currently not supported, always use the buttons to confirm your input
 
-   
 
 **Scenario Manager**
 -----------------------
