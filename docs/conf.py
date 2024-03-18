@@ -115,6 +115,7 @@ rst_prolog = """
 .. _Subscribe Parameter: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/17_SubscribeParameter.html
 .. _Subscribe User: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/18_SubscribeUser.html
 
+.. _Tools Pointcloud: https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/19_Tools_PointCloudResource_subset.html
 
 .. _Radii Viewer: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/0_Viewer.html
 .. _Connect Menu: https://gramaziokohler.github.io/radii_docs/tutorial/Viewer_PC/documentation_rst/1_Connect.html

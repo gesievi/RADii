@@ -2,14 +2,17 @@
 SubscribeParameter
 *******************
 
+**Grasshopper component**
+
 .. image:: ../images/Subscribe/Sub_parameter.png
     :align: Left
 
-Grasshopper component
+**Radii viewer counterpart**
 
 .. image:: ../images/Subscribe/Sub_parameter22.png
 
-Radii viewer counterpart
+This component is used to subscribe to a parameter that is set in a Radii Viewer, it can then be changed in the Viewer and fed back into the grashopper session.
+With the value geometry could for example be modified. 
 
 
 **Input**

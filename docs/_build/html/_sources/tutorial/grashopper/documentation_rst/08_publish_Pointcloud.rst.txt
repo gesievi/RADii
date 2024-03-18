@@ -5,6 +5,9 @@ PublishPointcloud
 .. image:: ../images/Publish/Publish_Pointclouds.png
     :scale: 90 %
 
+This component is used to publish Pointclouds to a channel.
+
+*Note:* Pointclouds have a tendency to be very large and can be a strain on your pc, in those cases see `Tools Pointcloud`_ to reduce their size.
 
 **Input**
 
@@ -15,7 +18,7 @@ Connection   Link with the Connect component         Connect
 Point Cloud  Input for a Point cloud                  Point cloud
 ===========  ======================================  ==============
 
-  - Point clouds have a tendency to be strain on your pc, in those cases see more under the tool section of radii
+
 
 
 **Output**

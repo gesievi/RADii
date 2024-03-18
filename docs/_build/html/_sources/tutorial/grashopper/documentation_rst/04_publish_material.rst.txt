@@ -4,6 +4,7 @@ PublishMaterial
 
 .. image:: ../images/Publish/Publish_Textures.png
 
+This component is used to connect all textures that should be published to a channel. It takes all textures from Rhino.
 
 **Input**
 

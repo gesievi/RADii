@@ -6,6 +6,8 @@ PublishGeometry
 .. image:: ../images/Publish/Publish_geometry.png
     :scale: 80 %
 
+This component is used to select geometry that should be published to a channel.
+
 **Input**
 
 =========== ================================ ================

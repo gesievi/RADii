@@ -5,7 +5,13 @@ PublishAnimation
 .. image:: ../images/Publish/Publish_animation.png
     :scale: 90 %
 
+This component is used to publish animations to a channel.
+If no content is given as an input all Viewers present will be subjected to the animation, similar to a dolly camera.
+In case content is provided the animation will be applied to it
+
 Example: https://www.youtube.com/shorts/9h1RwmqvWDQ
+
+
 
 **Input**
 

@@ -1,6 +1,6 @@
-************
-Content
-************
+***************
+Params Content
+***************
 
 .. image:: ../images/Params/Params_content.png
     :scale: 60%

@@ -5,10 +5,10 @@ PublishControl
 .. image:: ../images/Publish/Publish__controll.png
     :scale: 80 %
 
-Publish control lets you control the viewer settings from grasshopper
+Publish control lets you control the viewer settings from grasshopper.
  - Everything you set as input can be saved in this publish control component with the scenario manager. Be careful with geometry content, this can make your grasshopper file very heavy. 
    
-   Note: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
+   Tip: Grasshopper has an autosave. If the Publish Control component becomes too heavy, it will make you wait a lot
 
 Video tutorials:
 

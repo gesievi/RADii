@@ -5,6 +5,8 @@ PublishSection
 .. image:: ../images/Publish/Publish_section.png
     :scale: 80 %
 
+This component is used to publish clipping planes from Rhino or directly from grashopper to a channel.
+
 Video tutorials:
 
 - `Publish Section city scale <https://www.youtube.com/watch?v=5zsiGtmGIz4>`_

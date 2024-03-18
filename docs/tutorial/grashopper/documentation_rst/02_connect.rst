@@ -4,6 +4,7 @@ Connect
 
 The connect component is the **central component** of the radii plugin, every other component is connected to it, via "Connection" output.
 Only those components who are connected will be published, when you switch the Toggle to true.
+With it you can select the channel you want to publish to, and log into your Radii account.
 
 **Input**
 

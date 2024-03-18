@@ -4,6 +4,8 @@ SubscribeGeometry
 
 .. image:: ../images/Subscribe/Sub_geometry.png
 
+This component is used to subscribe to geometry that is published to a channel.
+
 **Input**
 
 ==========  ======================================  ==============

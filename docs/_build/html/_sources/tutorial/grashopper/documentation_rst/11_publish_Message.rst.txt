@@ -4,6 +4,7 @@ PublishMessage
 
 .. image:: ../images/Publish/Publish_message.png
 
+This component is used to publish messages to a channel.
 
 **Input**
 

@@ -1,5 +1,5 @@
 **************************
-Pointcloud
+Params Pointcloud
 **************************
 
 .. image:: ../images/Params/Params_Pointcloud.png

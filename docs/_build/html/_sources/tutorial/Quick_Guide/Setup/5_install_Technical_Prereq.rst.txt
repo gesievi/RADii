@@ -2,6 +2,9 @@
 Technicals and Best Practices for teaching
 *******************************************
 
+
+**work in progress**
+
 **PC/Mac**
 
   - Radii PC requirements:
