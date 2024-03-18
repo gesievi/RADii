@@ -11,7 +11,7 @@ Radii Documentation
 **************************
 
 `RADii <https://radii.info/>`_ a Cloud platform where you can publish (upload) your
-3D Models, share, explore and collaborate on them. 
+3D Models, share, explore and collaborate. 
 
 RADii consists of two parts, a Rhino Grasshopper plugin to publish (upload) 3D Models and Viewers that run on different devices ( PC/Mac, VR Glasses or mobile devices) to receive and explore the models.
 
