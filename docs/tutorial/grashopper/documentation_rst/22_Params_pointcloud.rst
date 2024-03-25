@@ -5,7 +5,10 @@ Params Pointcloud
 .. image:: ../images/Params/Params_Pointcloud.png
     :scale: 60%
 
-This component is a relay that lets you organize your wires more efficiently.
+This component converts mesh to a pointcloud or can be used to import Pointclouds from Rhino efficiently.
+
+The pointcloud generation works by taking each mesh vertex as a point, the finer your mesh the more detail your cloud will have.
+If your mesh is coloured with the color mesh component, the colors will be transferred to the pointcloud.
 
 
 **Input**
@@ -26,8 +29,4 @@ Pointcloud  Generated or Linked Pointcloud          Pointcloud
 ==========  ======================================  ==============
 
 
-
-The Pointcloud component lets you link a pointcloud from your Rhino scene, it also can generate a new pointcloud from a mesh.
-The generation works by taking each mesh vertex as a point, the finer your mesh the more detail your cloud will have.
-If your mesh is coloured with the color mesh component, the colors will be transferred to the pointcloud.
 
