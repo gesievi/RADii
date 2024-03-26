@@ -5,6 +5,7 @@ PublishMaterial
 .. image:: ../images/Publish/Publish_Textures.png
 
 This component is used to connect all textures that should be published to a channel. It takes all textures from Rhino.
+Textures are automatically resized to 1200px to avoid unnecessary large files, this can be changed with right clicking the component.
 
 **Input**
 

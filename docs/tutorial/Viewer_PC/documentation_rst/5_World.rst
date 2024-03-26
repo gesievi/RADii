@@ -12,7 +12,8 @@ World Menu
    - Field of view - controls the field of view 
    - Sensitivity - mouse sensitivity
    - Speed - movement speed
-   **Note:** turn slow when someone is following you through the project
+
+   *Note:* turn slow when someone is following you through the project
 
 2. **Effects** - turning them off increases performance
 
@@ -27,14 +28,16 @@ World Menu
 
    - Point Size
    - Point near size = increases point sizes near you
-   **Note:** point clouds are disabled in IOS/Android viewers because they require a lot of computing power
+
+   *Note:* point clouds are disabled in IOS/Android viewers because they require a lot of computing power
 
 4. **Weather**
 
    - Quality = resolution of the sky, above lv3 not significantly better
    - Condition = types of weather: rainy, foggy and sunny
    - Fog density = can hide the horizon but also your model
-   **Note:** for better performance: turn weather to sunny, fog off, quality to lowest
+
+   *Note:* for better performance: turn weather to sunny, fog off, quality to lowest
 
 5. **Time**
 6. **Transform**
@@ -48,11 +51,16 @@ World Menu
 
    .. image:: /tutorial/Radii_Icons/Viewer.png
 
-   - Standard
-	 - Stereo Shutter = for active 3D glasses
-	 - Chroma Key = a virtual green screen
-	 - Pepper Ghost = displays the model in a virtual box
-	 - Augmented Reality (AR) = displays virtual model in a real environment - available on IOs, Android, Oculus
+  - Standard
+  - Studio = Studio conditions, no weather or horizon, neutral reflections, color can be set with RGB values
+
+  .. image:: /tutorial/Viewer_PC/images/Menu_Viewer_Studio.png
+   :scale: 50 %
+
+  - Pepper Ghost = displays the model in a virtual box
+  - Stereo Shutter = for active 3D glasses
+    
+  - Augmented Reality (AR) = Available on IOs, Android, Oculus. Displays virtual model in a real environment 
 
 8. **Position**
 

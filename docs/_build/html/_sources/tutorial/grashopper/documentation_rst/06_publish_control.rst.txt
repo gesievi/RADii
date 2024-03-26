@@ -44,6 +44,8 @@ Name                Description
 =================== ============================================================================================
 Scale               Set the model scale
 Weather             Weather options
+Background color    Set the background color
+Background          Toggle the background color
 Grid                Toggle base floor
 Origin              Toggle origin sign
 Labels              Toggle all labels
