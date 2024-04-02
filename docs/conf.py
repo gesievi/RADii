@@ -22,7 +22,7 @@ copyright = '2023, ETH Zuerich Chair of Gramazio & Kohler'
 author = 'Gereon Sievi'
 
 # The full version, including alpha/beta/rc tags
-release = '0.37'
+release = '0.38.b1'
 
 # -- General configuration ---------------------------------------------------
 
@@ -59,9 +59,9 @@ html_theme = 'alabaster'
 html_theme_options =  {
     'fixed_sidebar' : 'False',
     'github_banner' : 'False' ,
-    'github_repo'   : "RADii",
+    'github_repo'   : "radii_docs",
     'github_button' : 'true',
-    'github_user'   : 'gesievi/',
+    'github_user'   : 'gramaziokohler/',
     'show_relbars' : 'False',
     'show_related' : 'True',
     'font_family'   : 'OfficeCodePro-Regular.otf',

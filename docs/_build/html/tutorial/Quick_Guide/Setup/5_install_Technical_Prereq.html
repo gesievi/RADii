@@ -5,10 +5,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Technicals and Best Practices for teaching &#8212; Radii Documentation 0.37 documentation</title>
+    <title>Technicals and teaching &#8212; Radii Documentation 0.38.b1 documentation</title>
     <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=4f649999" />
     <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=8691e056" />
-    <script src="../../../_static/documentation_options.js?v=ae02a30b"></script>
+    <script src="../../../_static/documentation_options.js?v=eba4f94d"></script>
     <script src="../../../_static/doctools.js?v=888ff710"></script>
     <script src="../../../_static/sphinx_highlight.js?v=dc90522c"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -31,87 +31,96 @@
 
           <div class="body" role="main">
             
-  <section id="technicals-and-best-practices-for-teaching">
-<h1>Technicals and Best Practices for teaching<a class="headerlink" href="#technicals-and-best-practices-for-teaching" title="Link to this heading">¶</a></h1>
-<p class="linemarker linemarker-6"><strong>work in progress</strong></p>
-<p class="linemarker linemarker-8"><strong>PC/Mac</strong></p>
-<blockquote>
-<div><ul class="simple">
-<li><p class="linemarker linemarker-10">Radii PC requirements:</p>
-<ul>
-<li><p class="linemarker linemarker-12">ideally min. 4 GB of RAM but also works with 2 GB for small projects</p></li>
-<li><p class="linemarker linemarker-13">power and ram capacity can vary greatly depending on the size and detail of the 3D model.</p></li>
-</ul>
-</li>
-<li><p class="linemarker linemarker-14">Rhino 3D license to use grashopper (only necessary for the publisher)</p></li>
-</ul>
-</div></blockquote>
-<p class="linemarker linemarker-16">Technicals:
-The Radii Viewer for PC as a live renderer needs more computing power than Rhino, a model that is almost to complex for a machine, will not run on it in Radii.
+  <section id="technicals-and-teaching">
+<h1>Technicals and teaching<a class="headerlink" href="#technicals-and-teaching" title="Link to this heading">¶</a></h1>
+<section id="technical-information">
+<h2>Technical information<a class="headerlink" href="#technical-information" title="Link to this heading">¶</a></h2>
+<p><strong>PC/Mac</strong></p>
+<p>While the Radii Viewer can run on relatively simple machines, the resources necessary scale with the complextiy of the model and the level of its optimisation.
+As a live renderer, the Radii Viewer, needs more computing power than the Rhino Plguin, a model that is almost to complex in Rhino, will not run on it in the Viewer.
 For very big models it can be necessary to run Rhino on one device and the viewer on another for a seamless use.
-In these cases it is best practice to save to the cloud before a presentation and then forcing a load to the viewers through the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html">Publish Control</a> component.
+In these cases it is best practice to save to the cloud before a presentation and then commanding a load to the viewers through the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/06_publish_control.html">Publish Control</a> component.
 For 32bit system there is a limit of 2GB for each component and saves.</p>
-<p class="linemarker linemarker-23"><strong>Oculus Rift</strong></p>
+<p>Radii PC requirements:</p>
 <blockquote>
-<div><p class="linemarker linemarker-25">Oculus 2
-- we found a performance limit of 100 000 Points for Pointclouds</p>
-</div></blockquote>
-<p class="linemarker linemarker-28">Best practice</p>
-<blockquote>
+<div><blockquote>
 <div><ul class="simple">
-<li><p class="linemarker linemarker-30">in the scale of our design studio we found that smaller models such as 1:1 mockups in the path through mode worked best for the hardware.</p></li>
-<li><p class="linemarker linemarker-31">The Oculus 2 is a standalone device and does not need a PC to run, but it is necessary to have a Facebook account to use it.</p></li>
+<li><p>ideally min. 4 GB of RAM but also works with 2 GB for small projects</p></li>
+<li><p>a graphics card of medium strength or higher</p></li>
+<li><p>power and ram capacity can vary greatly depending on the size and detail of the 3D model.</p></li>
 </ul>
 </div></blockquote>
-<p class="linemarker linemarker-33"><strong>Server Storage and channels</strong></p>
-<p class="linemarker linemarker-35">By registering at <a class="reference external" href="https://radii.info/">radii.info</a> you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a></p>
-<p class="linemarker linemarker-37">Storage for:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p class="linemarker linemarker-39">unregistered users: X GB</p></li>
-<li><p class="linemarker linemarker-40">registered users: x GB</p></li>
-<li><p class="linemarker linemarker-41">organizations: to be defined with Radii contact at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a></p></li>
+<ul class="simple">
+<li><p>Rhino 3D license to use grashopper (only necessary for the Plugin)</p></li>
 </ul>
 </div></blockquote>
-<section id="preparation-time-to-learn-and-infrastructure">
-<h2>Preparation, time to learn and infrastructure<a class="headerlink" href="#preparation-time-to-learn-and-infrastructure" title="Link to this heading">¶</a></h2>
-<p class="linemarker linemarker-51"><strong>Lv 1. A walkthrough with a group:</strong></p>
-<p class="linemarker linemarker-53"><em>Preparation and time:</em> 1 Day for the publisher, 20 min. for the group</p>
-<p class="linemarker linemarker-55">The publisher: understand the basic of how to stream geometry with Radii Grasshopper and the basics on operating the viewer.
+<p><strong>Oculus Rift</strong></p>
+<blockquote>
+<div><p>Oculus Quest 2</p>
+<ul class="simple">
+<li><p>for Pointclouds we found a performance limit of 100 000 Points</p></li>
+</ul>
+<p><strong>Best practice:</strong></p>
+<ul class="simple">
+<li><p>in the scale of our design studio we found that smaller models such as 1:1 mockups in the path through mode worked best for the hardware.</p></li>
+<li><p>The Oculus 2 is a standalone device and does not need a PC to run, but it is necessary to have a Facebook account to use it.</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Server Storage and channels</strong></p>
+<p>By registering at <a class="reference external" href="https://radii.info/">radii.info</a> you get aces to your own channel on the Radii server. If you would like to have a specific domain, your own server or unlimited storage contact Radii at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a>
+The publishing and save limit can be seen when right clicking on the <a class="reference external" href="https://gramaziokohler.github.io/radii_docs/tutorial/grashopper/documentation_rst/02_connect.html">Connect</a> component.</p>
+<p>Current storage for:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>unregistered users:
+- publish limit : 250 mb
+- save limit    : 50 mb</p></li>
+<li><p>registered users: x GB
+- publish limit : 500 mb
+- save limit    : 250 mb</p></li>
+<li><p>organizations: to be defined with Radii contact at <a class="reference external" href="mailto:contact&#37;&#52;&#48;radii&#46;info">contact<span>&#64;</span>radii<span>&#46;</span>info</a></p></li>
+</ul>
+</div></blockquote>
+<p><strong>Infrastructure</strong></p>
+<p>In the scope of the <a class="reference external" href="https://gramaziokohler.arch.ethz.ch/web/d/lehre/448.html">Imersive Design Studio</a> at gramazio Kohler we made good experience with the following Infrastructure.</p>
+<blockquote>
+<div><p><em>Space:</em></p>
+<ul class="simple">
+<li><p>A Vr-Arena: an empty Space of 10 by 10m to walk around and explore</p></li>
+<li><p>Work tables that are situated right next to it for seamless use</p></li>
+</ul>
+<p><em>Tech</em></p>
+<ul class="simple">
+<li><p>Personal laptops of medium strength for each student</p></li>
+<li><p>One strong PC for every second student
+- for more advanced models</p></li>
+<li><p>A bigg screen/projector relative to the size of the class
+- for group discussion and presentations</p></li>
+<li><p>Oculus or other Vr devices, for every second student</p></li>
+<li><p>personal Phones or Ipads for augmented reality usage</p></li>
+</ul>
+</div></blockquote>
+<section id="preparations-for-teaching">
+<h3>Preparations for teaching<a class="headerlink" href="#preparations-for-teaching" title="Link to this heading">¶</a></h3>
+<p><strong>Lv 1. A walkthrough with a group:</strong></p>
+<p><em>Preparation and time:</em> 1 Day for the publisher, 20 min. for the group</p>
+<p>The publisher: understand the basic of how to stream geometry with Radii Grasshopper and the basics on operating the viewer.
 The observers: Install the viewer, log into the server and navigate</p>
-<p class="linemarker linemarker-58"><em>Tech:</em></p>
-<p class="linemarker linemarker-60">The Designer: min. a laptop of medium strength for streaming and running the viewer in parallel
+<p><em>Tech:</em></p>
+<p>The Designer: min. a laptop of medium strength for streaming and running the viewer in parallel
 The observers:  min. a laptop of medium strength for running the viewer</p>
-<p class="linemarker linemarker-64"><strong>Lv 2. Class of students work and develop their projects through a semester with Radii:</strong></p>
-<p class="linemarker linemarker-66"><em>Preparation and time:</em> 3-4 days of preparation to understand the program and be able to teach it.</p>
-<p class="linemarker linemarker-68">We teach Radii in 3 seatings throughout the semester in a total of 5 hours, with constant usage in between.
+<p><strong>Lv 2. Class of students work and develop their projects through a semester with Radii:</strong></p>
+<p><em>Preparation and time:</em> 3-4 days of preparation to understand the program and be able to teach it.</p>
+<p>We teach Radii in 3 seatings throughout the semester in a total of 5 hours, with constant usage in between.
 This enables the student to test models in Radii as well as present them at the end.</p>
-<p class="linemarker linemarker-71">The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
+<p>The first 1,5 hours explain the basics on how to use the viewer and the grasshopper plugin
 For the viewer this includes how to connect to a channel and navigate in a model. In grasshopper
 is is about the most basic workflow and most important publishing components.
 In the second sitting we introduce the saving to the cloud and locally in radii files, how to animate, define views and basics of publish control.
 The third class goes into detail about the scenario manager that is part of publish control and leaves time for possible subscribe components.</p>
-<p class="linemarker linemarker-77"><em>Tech:</em></p>
-<ul class="simple">
-<li><p class="linemarker linemarker-79">Personal laptops of medium strength for each student</p></li>
-<li><p class="linemarker linemarker-80">Min. one strong PC for presentations for the viewer to run on</p>
-<ul>
-<li><p class="linemarker linemarker-82">ideally one per group to allow for stronger access and testing</p></li>
-</ul>
-</li>
-<li><p class="linemarker linemarker-84">A bigger screen/projector relative to the size of the class</p></li>
-<li><p class="linemarker linemarker-85">Optional:</p>
-<ul>
-<li><p class="linemarker linemarker-87">Oculus or other Vr devices (at the time of writing only Oculus is supported)</p></li>
-<li><p class="linemarker linemarker-88">Phones or Ipads for augmented reality usage</p></li>
-<li><p class="linemarker linemarker-89">Open space to walk around in VR/Ar</p></li>
-</ul>
-</li>
-</ul>
-<p class="linemarker linemarker-91"><strong>VR Arena</strong></p>
-<p class="linemarker linemarker-93">For collaborative use of VR, it is possible to set up a VR arena with multiple Oculus devices. We have made good experiences with a space of 9x9m for 14 Students and 7 Oculus devices.</p>
-<p class="linemarker linemarker-96"><strong>Lv 3. Interactive collaborative work</strong></p>
-<p class="linemarker linemarker-99">Oculus</p>
+<p><strong>Lv 3. Interactive collaborative work</strong></p>
+<p>Oculus</p>
+</section>
 </section>
 </section>
 
@@ -130,7 +139,7 @@ The third class goes into detail about the scenario manager that is part of publ
 
 
 <p>
-<iframe src="https://ghbtns.com/github-btn.html?user=gesievi/&repo=RADii&type=watch&count=true&size=large&v=2"
+<iframe src="https://ghbtns.com/github-btn.html?user=gramaziokohler/&repo=radii_docs&type=watch&count=true&size=large&v=2"
   allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
 </p>
 
@@ -147,7 +156,7 @@ The third class goes into detail about the scenario manager that is part of publ
 <li class="toctree-l2"><a class="reference internal" href="2_install_PC.html">Setup Viewer PC/Mac</a></li>
 <li class="toctree-l2"><a class="reference internal" href="3_install_grasshopper.html">Setup Grasshopper Plugin</a></li>
 <li class="toctree-l2"><a class="reference internal" href="4_install_occulus.html">Setup Oculus</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Technicals and Best Practices for teaching</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Technicals and teaching</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../1_LV_Exploration_Grashopper.html">1. Tutorial: Grasshopper Basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../1_LV_Exploration_Viewer.html">2. Tutorial: Viewer Basics</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../2_LV_Simple_Review.html">3. Tutorial: Simple Presentation</a></li>
