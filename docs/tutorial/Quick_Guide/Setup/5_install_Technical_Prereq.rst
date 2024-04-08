@@ -1,7 +1,9 @@
 *******************************************
-Technicals and teaching
+Technicalities and Teaching
 *******************************************
 
+
+**work in progress**
 
 
 

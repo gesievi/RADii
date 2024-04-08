@@ -62,16 +62,37 @@ World Menu
     
   - Augmented Reality (AR) = Available on IOs, Android, Oculus. Displays virtual model in a real environment 
 
-8. **Position**
+8. **Tracking**
 
    .. image:: /tutorial/Radii_Icons/Position.png
+      :align: left
+      
+
+   .. image:: /tutorial/Viewer_PC/images/World_menu_tracking.png
+      :scale: 70 %
+      
 
    - Tracker Method = for using Pepper Ghost viewer mode
-     - Tracking is done with a camera and the external software: `Optitrack <https://github.com/opentrack/opentrack/>`_
+     
+      - Tracking is done with a camera and the external software: `Optitrack <https://github.com/opentrack/opentrack/>`_
+
+   **Note for VR**
+
+  - in the Vr-Viewer the icon opens a different menu that lets you position the X,Y = 0 position and the orientation of it
+    
+    - this is very helpful to precisely place a model in real space 
+
 
 9. **Projection**
 
    .. image:: /tutorial/Radii_Icons/Projection.png
+      :align: left
+   
+   
+   .. image:: /tutorial/Viewer_PC/images/World_menu_Projection.png
+      :scale: 70 %
+
+
 
    - Projection = screen size settings
      - you can also edit the overall scale and height of the horizon
@@ -79,7 +100,7 @@ World Menu
 10. **Grid** = toggles the default floor
 11. **Origin** = toggles the origin point
 
-Video tutorials:
+**Video tutorials:**
 
 - `Time animation <https://www.youtube.com/watch?v=nheVCJKet8k>`_
 - `Scaling <https://www.youtube.com/watch?v=72bPt8c2lzM>`_
